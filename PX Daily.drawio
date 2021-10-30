@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-30T11:14:48.465Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="76yzlZUYw4Eo-tl3o0sz" version="15.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-30T11:15:42.489Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="rRNhmMG8F-3d6rue7WZz" version="15.6.2" type="github">
   <diagram id="zrbfAotFL-TyWPudBQgr" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -237,7 +237,7 @@
           <mxGeometry x="450" y="2660" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4yZyETDFvui7lg3QUQY9-1" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. why price要採用來自Daily Price.csv裡的price, git檔案為什麼沒有價格?&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. why &#39;Actual_day&#39;&amp;nbsp;&lt;/span&gt;&lt;span&gt;should be the day before yesterday?&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3. 分別找出下列檔案的資料源頭與產出後要串接到power bi的哪個部分:&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgb(230 , 208 , 222)&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;mismatch_store excel&lt;/div&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;Daily_mismatch excel&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;PX POS (actual_day).csv&lt;/div&gt;&lt;/span&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
-          <mxGeometry x="92.5" y="2860" width="467.5" height="160" as="geometry" />
+          <mxGeometry x="61.25" y="2860" width="467.5" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
