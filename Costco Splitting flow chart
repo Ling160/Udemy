@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T13:03:22.122Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="ED3Uyel7z9q9N_ASLAW0" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-05T13:04:51.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="j8xfr6ocC3lsC7Sx6Hxl" version="15.6.6" type="github">
   <diagram id="R4ZSTOAK7tDTI5fRjUOM" name="Page-1">
     <mxGraphModel dx="652" dy="1463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="Et6sD8UWYVTrB-ZEDojU-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-1" target="Et6sD8UWYVTrB-ZEDojU-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Et6sD8UWYVTrB-ZEDojU-1" value="POS Spliting Engine.py -&amp;gt; # Costco Split" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-1" value="跑Python第2隻程式POS Spliting Engine.py -&amp;gt; # Costco Split" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="130" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Et6sD8UWYVTrB-ZEDojU-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-3" target="Et6sD8UWYVTrB-ZEDojU-5">
@@ -153,8 +153,14 @@
         <mxCell id="Et6sD8UWYVTrB-ZEDojU-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-57" target="Et6sD8UWYVTrB-ZEDojU-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Et6sD8UWYVTrB-ZEDojU-57" value="SMC&lt;br&gt;=Sell - in&lt;br&gt;from Jenny" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-57" value="暫存檔內只能流最新這個月的檔案(之前的請先移除)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="130" y="-90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-60" target="Et6sD8UWYVTrB-ZEDojU-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-60" value="SMC&lt;br&gt;=Sell - in&lt;br&gt;from Jenny" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-230" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
