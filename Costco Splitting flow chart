@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T13:04:51.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="j8xfr6ocC3lsC7Sx6Hxl" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-05T13:24:35.519Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="N6OjuhuOZKL400_lDGHw" version="15.6.6" type="github">
   <diagram id="R4ZSTOAK7tDTI5fRjUOM" name="Page-1">
     <mxGraphModel dx="652" dy="1463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="Et6sD8UWYVTrB-ZEDojU-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-1" target="Et6sD8UWYVTrB-ZEDojU-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Et6sD8UWYVTrB-ZEDojU-1" value="跑Python第2隻程式POS Spliting Engine.py -&amp;gt; # Costco Split" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-1" value="跑Python第1隻程式POS Spliting Engine.py -&amp;gt; # Costco Split" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="130" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Et6sD8UWYVTrB-ZEDojU-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-3" target="Et6sD8UWYVTrB-ZEDojU-5">
@@ -147,6 +147,9 @@
         <mxCell id="Et6sD8UWYVTrB-ZEDojU-53" value="回信後更新Costco Taiwan Item List" style="shape=tape;whiteSpace=wrap;html=1;rounded=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="310" y="1650" width="120" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-55" target="Et6sD8UWYVTrB-ZEDojU-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Et6sD8UWYVTrB-ZEDojU-55" value="跑Python第2隻程式pos matching table engine" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="310" y="1850" width="120" height="60" as="geometry" />
         </mxCell>
@@ -161,6 +164,45 @@
         </mxCell>
         <mxCell id="Et6sD8UWYVTrB-ZEDojU-60" value="SMC&lt;br&gt;=Sell - in&lt;br&gt;from Jenny" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="130" y="-230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-63" target="Et6sD8UWYVTrB-ZEDojU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-63" value="此流程已內嵌在&lt;br&gt;第1隻程式內" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=default;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-66" target="Et6sD8UWYVTrB-ZEDojU-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-66" value="建立一空白的data frame, 命名為df" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-68" target="Et6sD8UWYVTrB-ZEDojU-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-68" value="把transaction裡面所有costco每月的資料都append到此df" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-70" target="Et6sD8UWYVTrB-ZEDojU-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-70" value="df只取兩欄位&lt;br&gt;Prod_ID,&lt;br&gt;Prod_Desc" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-72" target="Et6sD8UWYVTrB-ZEDojU-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-72" value="df刪除重複的&lt;br&gt;Prod_ID資料列, 重新存入df" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;dashed=1;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-74" target="Et6sD8UWYVTrB-ZEDojU-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-74" value="df的&lt;br&gt;Prod_ID的column name改為SAP#" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-76" value="存出costco matching table檔案" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2690" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
