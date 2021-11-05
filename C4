@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T14:14:07.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="2T2YxjZTLJbz98msW-Fb" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-05T14:18:53.265Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="atKinvKskzWwB83ri6BJ" version="15.6.6" type="github">
   <diagram id="pbF9PYGYmpb1I7H2cWJg" name="Page-1">
-    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="539" dy="301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,13 +16,13 @@
         <mxCell id="p17HGIqBA7eMovYmSIhO-2" value="解壓縮" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="340" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="p17HGIqBA7eMovYmSIhO-4" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="240" y="620" width="60" height="30" as="geometry" />
+        <mxCell id="p17HGIqBA7eMovYmSIhO-4" value="&lt;div&gt;日期&lt;/div&gt;&lt;div&gt;廠編&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;家樂福貨號&lt;/span&gt;&lt;/div&gt;&lt;div&gt;門市店號&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;門市名稱&lt;/span&gt;&lt;/div&gt;&lt;div&gt;商品條碼&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;商品名稱&lt;/span&gt;&lt;/div&gt;&lt;div&gt;容量&lt;/div&gt;&lt;div&gt;最小單位&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;銷售數量&lt;/span&gt;&lt;/div&gt;&lt;div&gt;銷售額(未稅)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;銷售額(含稅)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(0 , 255 , 0)&quot;&gt;Column1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="240" y="600" width="90" height="240" as="geometry" />
         </mxCell>
         <mxCell id="p17HGIqBA7eMovYmSIhO-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-5" target="p17HGIqBA7eMovYmSIhO-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p17HGIqBA7eMovYmSIhO-5" value="michelle修改錯誤寫的code" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="p17HGIqBA7eMovYmSIhO-5" value="&lt;span style=&quot;background-color: rgb(0 , 255 , 0)&quot;&gt;michelle修改錯誤寫的code&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="340" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p17HGIqBA7eMovYmSIhO-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-8" target="p17HGIqBA7eMovYmSIhO-10">
@@ -31,8 +31,11 @@
         <mxCell id="p17HGIqBA7eMovYmSIhO-8" value="git 下載到download的daily POS csv" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="340" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="p17HGIqBA7eMovYmSIhO-10" value="git 下載到download的daily POS csv" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="340" y="760" width="120" height="60" as="geometry" />
+        <mxCell id="p17HGIqBA7eMovYmSIhO-10" value="修改部分欄位名稱" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="335" y="860" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-13" value="&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;Prod_ID,&lt;br&gt;Prod_Desc,&lt;br&gt;Store,&lt;br&gt;Amt,&lt;br&gt;Qty&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="240" y="860" width="90" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
