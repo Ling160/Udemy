@@ -1,29 +1,120 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T07:11:27.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="YSq8BN3xEvJTu0H73-IS" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-05T07:43:32.240Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="myYqrkGjYCa1SNr2jvJs" version="15.6.6" type="github">
   <diagram id="YJeu-k9PsVAki96pWgcC" name="Page-1">
-    <mxGraphModel dx="1022" dy="1536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1502" dy="1463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sAMPVpFcjQosjyyKbKnH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sAMPVpFcjQosjyyKbKnH-1" target="sAMPVpFcjQosjyyKbKnH-2">
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;" edge="1" parent="1" source="sAMPVpFcjQosjyyKbKnH-1" target="sAMPVpFcjQosjyyKbKnH-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sAMPVpFcjQosjyyKbKnH-1" value="從git找檔名有&#39;Feat&#39;的csv檔&lt;br&gt;存入variable file中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-1" value="從git找檔名有&#39;Feat&#39;的csv檔&lt;br&gt;存入variable file中" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="220" y="-330" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sAMPVpFcjQosjyyKbKnH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sAMPVpFcjQosjyyKbKnH-2" target="sAMPVpFcjQosjyyKbKnH-4">
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;" edge="1" parent="1" source="sAMPVpFcjQosjyyKbKnH-2" target="sAMPVpFcjQosjyyKbKnH-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sAMPVpFcjQosjyyKbKnH-2" value="把最新的15個檔名有&#39;Feat&#39;的csv檔&lt;br&gt;存入persona 資料夾中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-2" value="把最新的10個檔名有&#39;&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;Feat&lt;/span&gt;&#39;的csv檔&lt;br&gt;存入persona 資料夾中" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="220" y="-230" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sAMPVpFcjQosjyyKbKnH-4" value="從檔案中選取所需欄位存入&lt;br&gt;data frame named df 變數中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;" edge="1" parent="1" source="sAMPVpFcjQosjyyKbKnH-4" target="sAMPVpFcjQosjyyKbKnH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-4" value="從檔案中選取&lt;font color=&quot;#ff0000&quot;&gt;所需&lt;/font&gt;欄位存入&lt;br&gt;data frame named df 變數中" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="220" y="-130" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sAMPVpFcjQosjyyKbKnH-6" value="&lt;div&gt;訂單日期&lt;/div&gt;&lt;div&gt;訂單編號&lt;/div&gt;&lt;div&gt;客編&lt;/div&gt;&lt;div&gt;年齡&lt;/div&gt;&lt;div&gt;性別&lt;/div&gt;&lt;div&gt;品號&lt;/div&gt;&lt;div&gt;品名&lt;/div&gt;&lt;div&gt;供應商代碼&lt;/div&gt;&lt;div&gt;供應商名稱&lt;/div&gt;&lt;div&gt;購買數量&lt;/div&gt;&lt;div&gt;購買金額&lt;/div&gt;&lt;div&gt;商品分類1&lt;/div&gt;&lt;div&gt;商品分類2&lt;/div&gt;&lt;div&gt;商品分類3&lt;/div&gt;&lt;div&gt;商品分類4&lt;/div&gt;&lt;div&gt;地區&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-6" value="&lt;div&gt;訂單日期&lt;/div&gt;&lt;div&gt;訂單編號&lt;/div&gt;&lt;div&gt;客編&lt;/div&gt;&lt;div&gt;年齡&lt;/div&gt;&lt;div&gt;性別&lt;/div&gt;&lt;div&gt;品號&lt;/div&gt;&lt;div&gt;品名&lt;/div&gt;&lt;div&gt;供應商代碼&lt;/div&gt;&lt;div&gt;供應商名稱&lt;/div&gt;&lt;div&gt;購買數量&lt;/div&gt;&lt;div&gt;購買金額&lt;/div&gt;&lt;div&gt;商品分類1&lt;/div&gt;&lt;div&gt;商品分類2&lt;/div&gt;&lt;div&gt;商品分類3&lt;/div&gt;&lt;div&gt;商品分類4&lt;/div&gt;&lt;div&gt;地區&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="100" y="-370" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sAMPVpFcjQosjyyKbKnH-7" value="訂單日期&#39;, &lt;br&gt;&#39;訂單編號&#39;,&lt;br&gt;&amp;nbsp;&#39;客編&#39;, &lt;br&gt;&#39;品號&#39;, &lt;br&gt;&#39;品名&#39;, &lt;br&gt;&#39;購買數量&#39;, &lt;br&gt;&#39;購買金額&#39;, &lt;br&gt;&#39;地區&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-7" value="&lt;div&gt;&#39;Date&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;Transaction#&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;Membership&#39;,&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Qty&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Amt&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Address&#39;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="100" y="10" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;" edge="1" parent="1" source="sAMPVpFcjQosjyyKbKnH-9" target="sAMPVpFcjQosjyyKbKnH-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-9" value="更改df column header" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="10" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-11" value="訂單日期&#39;, &lt;br&gt;&#39;訂單編號&#39;,&lt;br&gt;&amp;nbsp;&#39;客編&#39;, &lt;br&gt;&#39;品號&#39;, &lt;br&gt;&#39;品名&#39;, &lt;br&gt;&#39;購買數量&#39;, &lt;br&gt;&#39;購買金額&#39;, &lt;br&gt;&#39;地區&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="100" y="-130" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-12" value="C:\Users\acadzzz\Desktop\CBG POS\1 Standalone POS\8004 Ecom\MOMO\Real POS\Persona" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="75" y="-245" width="115" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;" edge="1" parent="1" source="sAMPVpFcjQosjyyKbKnH-13" target="sAMPVpFcjQosjyyKbKnH-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-13" value="change &#39;Date&#39; formatting from original YYYY-MM-DD to YYYYMMDD" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="160" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;" edge="1" parent="1" source="sAMPVpFcjQosjyyKbKnH-15" target="sAMPVpFcjQosjyyKbKnH-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-15" value="add column for channel &#39;MOMO&#39;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="280" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;" edge="1" parent="1" source="sAMPVpFcjQosjyyKbKnH-19" target="sAMPVpFcjQosjyyKbKnH-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-19" value="choose the latest date from &#39;Date&#39; column and save this single value to variable latest" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="410" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;" edge="1" parent="1" source="sAMPVpFcjQosjyyKbKnH-21" target="sAMPVpFcjQosjyyKbKnH-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-21" value="check whether all the value in column &#39;Date&#39; is equal the variable latest" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="530" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-23" value="save this df into a csv file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=default;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="670" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-25" value="C:\Users\acadzzz\Desktop\CBG POS\0 Big POS\1 CBG Big POS\Transaction\8004\MOMO\Daily\MOMO POS &lt;font&gt;{latest}&lt;/font&gt;.csv" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="670" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;" edge="1" source="sAMPVpFcjQosjyyKbKnH-49" target="sAMPVpFcjQosjyyKbKnH-51" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-49" value="從git找檔名有&#39;Feat&#39;的csv檔&lt;br&gt;存入variable file中" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="443" y="-330" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;" edge="1" source="sAMPVpFcjQosjyyKbKnH-51" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="518" y="-130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-51" value="把最新的10個檔名有&#39;&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;Cart&lt;/span&gt;&#39;的csv檔&lt;br&gt;存入persona 資料夾中" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="443" y="-230" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-68" value="save this df into a csv file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=default;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="443" y="670" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="sAMPVpFcjQosjyyKbKnH-70" target="sAMPVpFcjQosjyyKbKnH-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-70" value="從檔案中選取&lt;font color=&quot;#ff0000&quot;&gt;全部&lt;/font&gt;欄位存入&lt;br&gt;data frame named df 變數中" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="443" y="-130" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;" edge="1" source="sAMPVpFcjQosjyyKbKnH-74" target="sAMPVpFcjQosjyyKbKnH-76" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-74" value="從git找檔名有&#39;Feat&#39;的csv檔&lt;br&gt;存入variable file中" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="700" y="-330" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;" edge="1" source="sAMPVpFcjQosjyyKbKnH-76" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775" y="-130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-76" value="把最新的10個檔名有&#39;&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;Flow&lt;/span&gt;&#39;的csv檔&lt;br&gt;存入persona 資料夾中" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="700" y="-230" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-77" value="save this df into a csv file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=default;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="700" y="670" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" source="sAMPVpFcjQosjyyKbKnH-79" target="sAMPVpFcjQosjyyKbKnH-77" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-79" value="從檔案中選取&lt;font color=&quot;#ff0000&quot;&gt;全部&lt;/font&gt;欄位存入&lt;br&gt;data frame named df 變數中" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="700" y="-130" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
