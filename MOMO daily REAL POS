@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T06:45:23.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.6.6" etag="XO4eBqmHQBN2GazdyhOs" type="github"><diagram id="YJeu-k9PsVAki96pWgcC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-05T07:11:27.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="YSq8BN3xEvJTu0H73-IS" version="15.6.6" type="github">
+  <diagram id="YJeu-k9PsVAki96pWgcC" name="Page-1">
+    <mxGraphModel dx="1022" dy="1536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sAMPVpFcjQosjyyKbKnH-1" target="sAMPVpFcjQosjyyKbKnH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-1" value="從git找檔名有&#39;Feat&#39;的csv檔&lt;br&gt;存入variable file中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-330" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sAMPVpFcjQosjyyKbKnH-2" target="sAMPVpFcjQosjyyKbKnH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-2" value="把最新的15個檔名有&#39;Feat&#39;的csv檔&lt;br&gt;存入persona 資料夾中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-230" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-4" value="從檔案中選取所需欄位存入&lt;br&gt;data frame named df 變數中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-130" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-6" value="&lt;div&gt;訂單日期&lt;/div&gt;&lt;div&gt;訂單編號&lt;/div&gt;&lt;div&gt;客編&lt;/div&gt;&lt;div&gt;年齡&lt;/div&gt;&lt;div&gt;性別&lt;/div&gt;&lt;div&gt;品號&lt;/div&gt;&lt;div&gt;品名&lt;/div&gt;&lt;div&gt;供應商代碼&lt;/div&gt;&lt;div&gt;供應商名稱&lt;/div&gt;&lt;div&gt;購買數量&lt;/div&gt;&lt;div&gt;購買金額&lt;/div&gt;&lt;div&gt;商品分類1&lt;/div&gt;&lt;div&gt;商品分類2&lt;/div&gt;&lt;div&gt;商品分類3&lt;/div&gt;&lt;div&gt;商品分類4&lt;/div&gt;&lt;div&gt;地區&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-370" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-7" value="訂單日期&#39;, &lt;br&gt;&#39;訂單編號&#39;,&lt;br&gt;&amp;nbsp;&#39;客編&#39;, &lt;br&gt;&#39;品號&#39;, &lt;br&gt;&#39;品名&#39;, &lt;br&gt;&#39;購買數量&#39;, &lt;br&gt;&#39;購買金額&#39;, &lt;br&gt;&#39;地區&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-130" width="90" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
