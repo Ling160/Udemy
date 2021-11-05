@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T08:29:35.416Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="9-hXa5gFN81UCgjrE26x" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-05T08:35:35.859Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="YnEiYMukBcP1IDstwHcO" version="15.6.6" type="github">
   <diagram id="YJeu-k9PsVAki96pWgcC" name="Page-1">
     <mxGraphModel dx="1632" dy="1536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -116,11 +116,17 @@
         <mxCell id="sAMPVpFcjQosjyyKbKnH-79" value="從檔案中選取&lt;font color=&quot;#ff0000&quot;&gt;全部&lt;/font&gt;欄位存入&lt;br&gt;data frame named df 變數中" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="700" y="-130" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sAMPVpFcjQosjyyKbKnH-99" value="把personal 資料夾中的&lt;br&gt;最新的10個檔名有&#39;&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;Feat&lt;/span&gt;&#39;的csv檔" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="278" y="910" width="150" height="60" as="geometry" />
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="sAMPVpFcjQosjyyKbKnH-99" target="sAMPVpFcjQosjyyKbKnH-101">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sAMPVpFcjQosjyyKbKnH-101" value="選取所需欄位" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="278" y="1010" width="150" height="60" as="geometry" />
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-99" value="把personal 資料夾中的&lt;br&gt;最新的10個檔名有&#39;&lt;span style=&quot;&quot;&gt;Feat&lt;/span&gt;&#39;的csv檔" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1010" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="sAMPVpFcjQosjyyKbKnH-101" target="sAMPVpFcjQosjyyKbKnH-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-101" value="把內容讀出存入temp內" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1110" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sAMPVpFcjQosjyyKbKnH-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="sAMPVpFcjQosjyyKbKnH-103" target="sAMPVpFcjQosjyyKbKnH-105">
           <mxGeometry relative="1" as="geometry" />
@@ -136,6 +142,27 @@
         </mxCell>
         <mxCell id="sAMPVpFcjQosjyyKbKnH-106" value="Prod_ID,&lt;br&gt;SAP#" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="788" y="1010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sAMPVpFcjQosjyyKbKnH-108" target="sAMPVpFcjQosjyyKbKnH-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="1040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="1250" />
+              <mxPoint x="520" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-108" value="把temp 附加append在data frame variable df裡" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1220" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="sAMPVpFcjQosjyyKbKnH-109" target="sAMPVpFcjQosjyyKbKnH-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-109" value="create a new data frame name df" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="290" y="910" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-114" value="repeat 10 times, 把10個檔案都合併成存在df中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="488" y="1130" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
