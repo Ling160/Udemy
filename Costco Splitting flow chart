@@ -1,1 +1,138 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T11:52:46.851Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.6.6" etag="A_UUQHgid7X1QTaF54Po" type="github"><diagram id="R4ZSTOAK7tDTI5fRjUOM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-05T12:53:21.053Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="10HCmDsVbh_CWM1RhNlZ" version="15.6.6" type="github">
+  <diagram id="R4ZSTOAK7tDTI5fRjUOM" name="Page-1">
+    <mxGraphModel dx="652" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-1" target="Et6sD8UWYVTrB-ZEDojU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-1" value="SMC&lt;br&gt;=Sell - in&lt;br&gt;from Jenny" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="130" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-3" target="Et6sD8UWYVTrB-ZEDojU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-3" value="SMC file&lt;br&gt;Raw Data sheet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="130" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-5" target="Et6sD8UWYVTrB-ZEDojU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-5" value="新增3欄位於df&lt;br&gt;channel&lt;br&gt;SKU#&lt;br&gt;Rrod_Name_CHI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="130" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-7" target="Et6sD8UWYVTrB-ZEDojU-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-7" value="改Columns name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="130" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-9" target="Et6sD8UWYVTrB-ZEDojU-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-9" value="篩選 channel為costco" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="130" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;strokeColor=default;labelBackgroundColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-11" target="Et6sD8UWYVTrB-ZEDojU-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-11" value="costco taiwan list.xlsx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=default;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;strokeColor=default;labelBackgroundColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-12" target="Et6sD8UWYVTrB-ZEDojU-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-12" value="取其中兩欄位&lt;br&gt;3M No.&lt;br&gt;Costco Retail" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=default;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-14" target="Et6sD8UWYVTrB-ZEDojU-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-14" target="Et6sD8UWYVTrB-ZEDojU-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="1410" />
+              <mxPoint x="190" y="1410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-14" value="更改欄位名稱為&lt;br&gt;SAP#,&lt;br&gt;Real_price" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=default;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-16" target="Et6sD8UWYVTrB-ZEDojU-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-16" value="把此merge後的資料令存放於新variable df_mismatch內" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-20" value="merge how = &#39;left&#39;&lt;br&gt;left: Prod_ID&lt;font color=&quot;#ff0000&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;br&gt;right: SAP#&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="305" y="730" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-21" target="Et6sD8UWYVTrB-ZEDojU-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-21" value="df_mismatch刪除duplicates(留下不重複的Prod_ID)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;dashed=1;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-23" target="Et6sD8UWYVTrB-ZEDojU-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-23" value="df_mismatch只選取Q大於0的資料列" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-25" value="存出Mismatch.xlsx檔" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=default;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-27" value="篩選 channel為costco" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-32" target="Et6sD8UWYVTrB-ZEDojU-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-32" target="Et6sD8UWYVTrB-ZEDojU-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-32" value="排除q為0的資料列" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="130" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-34" target="Et6sD8UWYVTrB-ZEDojU-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-34" value="排除q為0的資料列" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="130" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=#FF3333;strokeColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-38" target="Et6sD8UWYVTrB-ZEDojU-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-38" value="&lt;font color=&quot;#ff3333&quot;&gt;透明膠帶q除3&lt;br&gt;(pending to check why)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=#000000;strokeColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-40" target="Et6sD8UWYVTrB-ZEDojU-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-40" value="q全部打9折當成真正的quantity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-42" target="Et6sD8UWYVTrB-ZEDojU-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-42" value="計算Amt&lt;br&gt;(by Qty* Real_price)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-46" value="merge how = &#39;left&#39;&lt;br&gt;left: Prod_ID&lt;font color=&quot;#ff0000&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;br&gt;right: SAP#&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1350" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;dashed=1;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-47" target="Et6sD8UWYVTrB-ZEDojU-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-47" value="ETL等等" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-49" value="存出Transaction檔案" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1720" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
