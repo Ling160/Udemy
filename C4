@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T14:18:53.265Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="atKinvKskzWwB83ri6BJ" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-05T16:35:12.217Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="731L1I9okTKornosafxS" version="15.6.6" type="github">
   <diagram id="pbF9PYGYmpb1I7H2cWJg" name="Page-1">
-    <mxGraphModel dx="539" dy="301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="p17HGIqBA7eMovYmSIhO-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-1" target="p17HGIqBA7eMovYmSIhO-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p17HGIqBA7eMovYmSIhO-1" value="C4機器人爬蟲&lt;br&gt;抓Daily銷售資料" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="p17HGIqBA7eMovYmSIhO-1" value="C4機器人爬蟲&lt;br&gt;抓Daily銷售資料" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="340" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p17HGIqBA7eMovYmSIhO-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-2" target="p17HGIqBA7eMovYmSIhO-5">
@@ -31,11 +31,150 @@
         <mxCell id="p17HGIqBA7eMovYmSIhO-8" value="git 下載到download的daily POS csv" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="340" y="620" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-10" target="p17HGIqBA7eMovYmSIhO-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="p17HGIqBA7eMovYmSIhO-10" value="修改部分欄位名稱" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="335" y="860" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p17HGIqBA7eMovYmSIhO-13" value="&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;Prod_ID,&lt;br&gt;Prod_Desc,&lt;br&gt;Store,&lt;br&gt;Amt,&lt;br&gt;Qty&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="240" y="860" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-15" target="p17HGIqBA7eMovYmSIhO-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-15" value="利用新增一欄位key (= Amt + Qty), 來篩選刪除key為0的資料列" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1000" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-17" target="p17HGIqBA7eMovYmSIhO-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-17" value="選取所需欄位存放於df中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1140" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-19" value="&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;Prod_ID,&lt;br&gt;Prod_Desc,&lt;br&gt;Store,&lt;br&gt;Amt,&lt;br&gt;Qty&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1140" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-20" target="p17HGIqBA7eMovYmSIhO-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-20" value="新增欄位," style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1280" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-22" value="&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;Prod_ID,&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;Prod_Desc,&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;Store,&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;Amt,&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;Qty&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(234 , 107 , 102)&quot;&gt;Date,&lt;br&gt;Year,&lt;br&gt;YearMon,&lt;br&gt;Channel&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1280" width="90" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;strokeColor=default;labelBackgroundColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-23" target="p17HGIqBA7eMovYmSIhO-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-23" target="p17HGIqBA7eMovYmSIhO-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-23" value="Prod_ID修改&lt;font color=&quot;#ff3333&quot;&gt;data type to float first, then map to format and change type to string (why??)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1420" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-25" target="p17HGIqBA7eMovYmSIhO-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="1740" />
+              <mxPoint x="610" y="1740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-25" value="goal:執行mis match&lt;br&gt;從上面的df選出2個欄位, 再存回變數df中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1620" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-27" value="把目前的df存出&lt;br&gt;c4 transaction csv檔" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="545" y="1420" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-29" value="&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;Prod_ID,&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;Prod_Desc,&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;Store,&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;Amt,&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;Qty&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(234 , 107 , 102)&quot;&gt;Date,&lt;br&gt;Year,&lt;br&gt;YearMon,&lt;br&gt;Channel&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1420" width="90" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-30" value="&lt;span style=&quot;&quot;&gt;&lt;span&gt;Prod_ID,&lt;/span&gt;&lt;br&gt;&lt;span&gt;Prod_Desc,&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1620" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-31" target="p17HGIqBA7eMovYmSIhO-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-31" value="讀取舊有的Matching table, 存放於mt_old內" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;fillColor=#d5e8d4;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-32" target="p17HGIqBA7eMovYmSIhO-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-32" value="把df的資料append到&lt;br&gt;舊有的mt_old" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=default;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="545" y="1770" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-35" target="p17HGIqBA7eMovYmSIhO-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-35" value="mt_old 刪除重複的Prod_ID資(利用drop_duplicates by Prod_ID)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=default;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="545" y="1910" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-39" value="&lt;span style=&quot;background-color: rgb(229 , 204 , 255)&quot;&gt;Prod_ID&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;,&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;Prod_Desc,&lt;br&gt;&lt;/span&gt;SAP#&lt;br&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1620" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-41" target="p17HGIqBA7eMovYmSIhO-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-41" value="讀取舊有C4 department資料, 存放於mt_maintain內" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d79b00;fillColor=#ffe6cc;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-42" value="&lt;div&gt;3M料號&lt;/div&gt;&lt;div&gt;Dept&lt;/div&gt;&lt;div&gt;Prod_Desc&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(229 , 204 , 255)&quot;&gt;Prod_ID&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Sub-Dept&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1770" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-43" target="p17HGIqBA7eMovYmSIhO-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="2020" />
+              <mxPoint x="610" y="2020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-43" value="轉換Prod_ID data type為 string" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d79b00;fillColor=#ffe6cc;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=#33FFFF;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-45" target="p17HGIqBA7eMovYmSIhO-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-45" target="p17HGIqBA7eMovYmSIhO-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-45" value="利用department舊有3M料號, 填寫入mt裡的SAP# 空缺值" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=default;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="545" y="2050" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-48" value="merge how = &#39;left&#39;&lt;br&gt;left: &lt;span style=&quot;background-color: rgb(229 , 204 , 255)&quot;&gt;Prod_ID&lt;/span&gt;&lt;br&gt;right:&amp;nbsp;&lt;span style=&quot;background-color: rgb(229 , 204 , 255)&quot;&gt;Prod_ID&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1990" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-49" value="&lt;span style=&quot;background-color: rgb(102 , 255 , 255)&quot;&gt;mt[&#39;SAP#&#39;]&lt;/span&gt;[mt[&#39;SAP#&#39;].isna()] = &lt;span style=&quot;background-color: rgb(102 , 255 , 255)&quot;&gt;mt[&#39;3M料號&#39;]&lt;/span&gt;[mt[&#39;SAP#&#39;].isna()]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="450" y="2090" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-50" target="p17HGIqBA7eMovYmSIhO-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-50" value="再次篩選mt當中的SAP#欄位有空缺值的資料出來, 並存入mismatch當中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=default;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="545" y="2200" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-52" value="存出檔案daily_mismatch.xlsx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="545" y="2440" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-54" target="p17HGIqBA7eMovYmSIhO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-54" value="跑Python程式上半pos部分" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="340" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;dashed=1;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-58" target="p17HGIqBA7eMovYmSIhO-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-58" value="command shell會跑出mis match的品項" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=default;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="545" y="2320" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-61" value="mt取出所需的3個欄位" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2200" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-63" value="&#39;Prod_ID&#39;, &#39;Prod_Desc&lt;span style=&quot;background-color: rgb(255 , 0 , 255)&quot;&gt;_y&#39;&lt;/span&gt;, &#39;SAP#&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="200" y="2200" width="95" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
