@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T13:32:18.712Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.6.6" etag="7IqnmFyxZ0CURkFLrxVF" type="github"><diagram id="pbF9PYGYmpb1I7H2cWJg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-05T14:14:07.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="2T2YxjZTLJbz98msW-Fb" version="15.6.6" type="github">
+  <diagram id="pbF9PYGYmpb1I7H2cWJg" name="Page-1">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p17HGIqBA7eMovYmSIhO-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-1" target="p17HGIqBA7eMovYmSIhO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-1" value="C4機器人爬蟲&lt;br&gt;抓Daily銷售資料" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-2" target="p17HGIqBA7eMovYmSIhO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-2" value="解壓縮" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="340" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-4" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="240" y="620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-5" target="p17HGIqBA7eMovYmSIhO-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-5" value="michelle修改錯誤寫的code" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="340" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-8" target="p17HGIqBA7eMovYmSIhO-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-8" value="git 下載到download的daily POS csv" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="340" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-10" value="git 下載到download的daily POS csv" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="340" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
