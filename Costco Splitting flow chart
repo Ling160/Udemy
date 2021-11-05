@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T12:53:21.053Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="10HCmDsVbh_CWM1RhNlZ" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-05T13:03:22.122Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="ED3Uyel7z9q9N_ASLAW0" version="15.6.6" type="github">
   <diagram id="R4ZSTOAK7tDTI5fRjUOM" name="Page-1">
-    <mxGraphModel dx="652" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="1463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Et6sD8UWYVTrB-ZEDojU-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-1" target="Et6sD8UWYVTrB-ZEDojU-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Et6sD8UWYVTrB-ZEDojU-1" value="SMC&lt;br&gt;=Sell - in&lt;br&gt;from Jenny" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-1" value="POS Spliting Engine.py -&amp;gt; # Costco Split" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="130" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Et6sD8UWYVTrB-ZEDojU-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-3" target="Et6sD8UWYVTrB-ZEDojU-5">
@@ -81,6 +81,9 @@
         <mxCell id="Et6sD8UWYVTrB-ZEDojU-23" value="df_mismatch只選取Q大於0的資料列" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="310" y="1170" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-25" target="Et6sD8UWYVTrB-ZEDojU-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Et6sD8UWYVTrB-ZEDojU-25" value="存出Mismatch.xlsx檔" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=default;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="310" y="1300" width="120" height="60" as="geometry" />
         </mxCell>
@@ -131,6 +134,27 @@
         </mxCell>
         <mxCell id="Et6sD8UWYVTrB-ZEDojU-49" value="存出Transaction檔案" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="130" y="1720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;dashed=1;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-51" target="Et6sD8UWYVTrB-ZEDojU-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-51" value="Mismatch檔案中的SKU問題, 寫信給AM問新sku" style="shape=tape;whiteSpace=wrap;html=1;rounded=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1470" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;dashed=1;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-53" target="Et6sD8UWYVTrB-ZEDojU-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-53" value="回信後更新Costco Taiwan Item List" style="shape=tape;whiteSpace=wrap;html=1;rounded=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1650" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-55" value="跑Python第2隻程式pos matching table engine" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="Et6sD8UWYVTrB-ZEDojU-57" target="Et6sD8UWYVTrB-ZEDojU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et6sD8UWYVTrB-ZEDojU-57" value="SMC&lt;br&gt;=Sell - in&lt;br&gt;from Jenny" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-90" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
