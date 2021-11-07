@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-07T11:40:20.539Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="xexnWZXe-0zIj6juoe7x" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-07T11:43:51.490Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="A2_sKlA1G3X2U7W2LPiW" version="15.6.6" type="github">
   <diagram id="pbF9PYGYmpb1I7H2cWJg" name="Page-1">
     <mxGraphModel dx="1459" dy="1401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -434,14 +434,26 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="p17HGIqBA7eMovYmSIhO-155" value="daily樞紐&lt;br&gt;&#39;Prod_ID&#39;, &#39;Prod_Desc&#39;, &#39;Store&#39;&lt;br&gt;成&lt;span style=&quot;background-color: rgb(0 , 255 , 0)&quot;&gt;daily_pivot&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="p17HGIqBA7eMovYmSIhO-155" value="daily樞紐&lt;br&gt;&#39;Prod_ID&#39;, &#39;Prod_Desc&#39;, &#39;Store&#39;&lt;br&gt;成&lt;span style=&quot;background-color: rgb(255 , 128 , 0)&quot;&gt;daily_pivot&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="50" y="2050" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="p17HGIqBA7eMovYmSIhO-158" value="&lt;span&gt;&lt;span style=&quot;background-color: rgb(0 , 255 , 0)&quot;&gt;df_pivot, daily_pivot&lt;/span&gt;&lt;br&gt;merger後存為&lt;br&gt;df_left&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="p17HGIqBA7eMovYmSIhO-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=12;fontColor=#FF0000;endArrow=classic;endFill=1;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-158" target="p17HGIqBA7eMovYmSIhO-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-158" value="&lt;span&gt;&lt;span style=&quot;background-color: rgb(0 , 255 , 0)&quot;&gt;df_pivot, &lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 128 , 0)&quot;&gt;daily_pivot&lt;/span&gt;&lt;br&gt;merger後存為&lt;br&gt;df_left&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-90" y="2190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p17HGIqBA7eMovYmSIhO-161" value="merge how= &lt;b&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;background-color: rgb(255 , 255 , 51)&quot;&gt;&#39;outer&#39;&lt;/font&gt;&lt;/b&gt;,&lt;br&gt;left_on = [&lt;span&gt;&#39;Prod_ID&#39;, &#39;Prod_Desc&#39;, &#39;Store&#39;&lt;/span&gt;]&lt;br&gt;right_on = [&lt;span&gt;&#39;Prod_ID&#39;, &#39;Prod_Desc&#39;, &#39;Store&#39;&lt;/span&gt;]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-40" y="2141" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-165" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=12;fontColor=default;endArrow=classic;endFill=1;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-162" target="p17HGIqBA7eMovYmSIhO-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-162" value="&lt;span&gt;缺值補0&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="2330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-164" value="校正月與日的差額&lt;br&gt;amt = &lt;span style=&quot;background-color: rgb(0 , 255 , 0)&quot;&gt;amt_x&lt;/span&gt; - &lt;span style=&quot;background-color: rgb(255 , 128 , 0)&quot;&gt;amt_y&lt;/span&gt;&lt;br&gt;qyt = &lt;span style=&quot;background-color: rgb(0 , 255 , 0)&quot;&gt;qty_x&lt;/span&gt; - &lt;span style=&quot;background-color: rgb(255 , 128 , 0)&quot;&gt;qty_y&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="2470" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
