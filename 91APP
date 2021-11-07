@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2021-11-07T13:06:33.198Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.7.0" etag="yu2NjUB0cmeHiuaOdehX" type="github"><diagram id="Tr7-KsZJzlOLgDVXrOY-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-07T13:20:06.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="MaTuIo0tV0DETjFmXDtN" version="15.7.0" type="github">
+  <diagram id="Tr7-KsZJzlOLgDVXrOY-" name="Page-1">
+    <mxGraphModel dx="372" dy="208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R4fQQOyCzwoItkcEd63j-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R4fQQOyCzwoItkcEd63j-1" target="R4fQQOyCzwoItkcEd63j-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R4fQQOyCzwoItkcEd63j-1" value="91app下載檔案" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R4fQQOyCzwoItkcEd63j-2" value="75個columns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R4fQQOyCzwoItkcEd63j-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R4fQQOyCzwoItkcEd63j-3" target="R4fQQOyCzwoItkcEd63j-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R4fQQOyCzwoItkcEd63j-3" value="手動貼到91app_pos.xlsx檔案中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R4fQQOyCzwoItkcEd63j-5" value="57個columns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R4fQQOyCzwoItkcEd63j-6" value="select needed 9 columns, 存入df" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R4fQQOyCzwoItkcEd63j-8" value="&lt;div&gt;&#39;主單編號&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;轉單日期時間&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;商品名稱&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;商品料號&#39;,&lt;span&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&#39;數量&#39;,&lt;/div&gt;&lt;div&gt;&#39;銷售金額(折扣後)&#39;,&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;會員編號&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;地址&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;訂單來源&#39;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="480" width="120" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
