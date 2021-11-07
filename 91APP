@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-07T13:21:17.601Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="qKyj90ekFYjLAtIZrk-4" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-07T13:33:41.289Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="rpQiDwtW0SsvO4cfG-xZ" version="15.7.0" type="github">
   <diagram id="Tr7-KsZJzlOLgDVXrOY-" name="Page-1">
     <mxGraphModel dx="447" dy="249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -31,11 +31,35 @@
         <mxCell id="R4fQQOyCzwoItkcEd63j-8" value="&lt;div&gt;&#39;主單編號&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;轉單日期時間&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;商品名稱&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;商品料號&#39;,&lt;span&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&#39;數量&#39;,&lt;/div&gt;&lt;div&gt;&#39;銷售金額(折扣後)&#39;,&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;會員編號&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;地址&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;訂單來源&#39;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="220" y="480" width="120" height="130" as="geometry" />
         </mxCell>
+        <mxCell id="R4fQQOyCzwoItkcEd63j-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R4fQQOyCzwoItkcEd63j-9" target="R4fQQOyCzwoItkcEd63j-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="R4fQQOyCzwoItkcEd63j-9" value="add new column named channel for assgin &#39;91app&#39;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R4fQQOyCzwoItkcEd63j-11" value="&lt;div&gt;&#39;主單編號&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;轉單日期時間&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;商品名稱&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;商品料號&#39;,&lt;span&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&#39;數量&#39;,&lt;/div&gt;&lt;div&gt;&#39;銷售金額(折扣後)&#39;,&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;會員編號&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;地址&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;訂單來源&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;Channel&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="220" y="620" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="R4fQQOyCzwoItkcEd63j-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R4fQQOyCzwoItkcEd63j-12" target="R4fQQOyCzwoItkcEd63j-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R4fQQOyCzwoItkcEd63j-12" value="欄位 轉單時間 data type改成string" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R4fQQOyCzwoItkcEd63j-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R4fQQOyCzwoItkcEd63j-14" target="R4fQQOyCzwoItkcEd63j-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R4fQQOyCzwoItkcEd63j-14" value="欄位 轉單時間&lt;br&gt;取出前四位 存成new variable Year;&lt;br&gt;取出第5-6位 存成new variable Month&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R4fQQOyCzwoItkcEd63j-16" value="&lt;div&gt;&#39;主單編號&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;轉單日期時間&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;商品名稱&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;商品料號&#39;,&lt;span&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&#39;數量&#39;,&lt;/div&gt;&lt;div&gt;&#39;銷售金額(折扣後)&#39;,&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;會員編號&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;地址&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;訂單來源&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;Channel&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;Year&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;Month&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="900" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="R4fQQOyCzwoItkcEd63j-17" value="再利用Year, Month建立2個新欄位&lt;br&gt;YearMonth,&lt;br&gt;Date" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R4fQQOyCzwoItkcEd63j-19" value="&lt;div&gt;&#39;主單編號&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;轉單日期時間&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;商品名稱&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;商品料號&#39;,&lt;span&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&#39;數量&#39;,&lt;/div&gt;&lt;div&gt;&#39;銷售金額(折扣後)&#39;,&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;會員編號&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;地址&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;訂單來源&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;Channel&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;Year&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;Month&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;YearMonth&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;Date&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1070" width="120" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
