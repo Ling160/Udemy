@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-07T11:43:51.490Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="A2_sKlA1G3X2U7W2LPiW" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-07T11:52:41.451Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="w7dSRwzJM2itGbkJWnHr" version="15.6.6" type="github">
   <diagram id="pbF9PYGYmpb1I7H2cWJg" name="Page-1">
-    <mxGraphModel dx="1459" dy="1401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1355" dy="1349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -452,8 +452,38 @@
         <mxCell id="p17HGIqBA7eMovYmSIhO-162" value="&lt;span&gt;缺值補0&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-90" y="2330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="p17HGIqBA7eMovYmSIhO-164" value="校正月與日的差額&lt;br&gt;amt = &lt;span style=&quot;background-color: rgb(0 , 255 , 0)&quot;&gt;amt_x&lt;/span&gt; - &lt;span style=&quot;background-color: rgb(255 , 128 , 0)&quot;&gt;amt_y&lt;/span&gt;&lt;br&gt;qyt = &lt;span style=&quot;background-color: rgb(0 , 255 , 0)&quot;&gt;qty_x&lt;/span&gt; - &lt;span style=&quot;background-color: rgb(255 , 128 , 0)&quot;&gt;qty_y&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="p17HGIqBA7eMovYmSIhO-167" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=12;fontColor=default;endArrow=classic;endFill=1;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-164" target="p17HGIqBA7eMovYmSIhO-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-164" value="校正用&lt;br&gt;&lt;span style=&quot;background-color: rgb(0 , 255 , 0)&quot;&gt;(月)&lt;/span&gt; 扣除 &lt;span style=&quot;background-color: rgb(255 , 128 , 0)&quot;&gt;(日加總&lt;/span&gt;)&lt;br&gt;amt = &lt;span style=&quot;background-color: rgb(0 , 255 , 0)&quot;&gt;amt_x&lt;/span&gt; - &lt;span style=&quot;background-color: rgb(255 , 128 , 0)&quot;&gt;amt_y&lt;/span&gt;&lt;br&gt;qyt = &lt;span style=&quot;background-color: rgb(0 , 255 , 0)&quot;&gt;qty_x&lt;/span&gt; - &lt;span style=&quot;background-color: rgb(255 , 128 , 0)&quot;&gt;qty_y&lt;br&gt;&lt;/span&gt;校正後存了兩個新變數amt, qty&lt;span style=&quot;background-color: rgb(255 , 128 , 0)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-90" y="2470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-169" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=12;fontColor=default;endArrow=classic;endFill=1;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-166" target="p17HGIqBA7eMovYmSIhO-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-166" value="new variable key&lt;br&gt;key = amt + qty" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="2610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-171" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=12;fontColor=default;endArrow=classic;endFill=1;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-168" target="p17HGIqBA7eMovYmSIhO-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-168" value="filter df_left by filter key != 0 and resave to df_left" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="2750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-174" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=12;fontColor=default;endArrow=classic;endFill=1;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-170" target="p17HGIqBA7eMovYmSIhO-173">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-170" value="重新設定五個變數內的值" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="2900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-172" value="&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;&#39;YearMon&#39;,&lt;/span&gt;&lt;br&gt;&#39;Prod_ID&#39;, &lt;br&gt;&#39;Prod_Desc&#39;,&lt;br&gt;&#39;Store&#39;,&lt;br&gt;&#39;Amt&#39;,&lt;br&gt;&#39;Qty&#39;&lt;br&gt;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;&lt;span&gt;Year&lt;/span&gt;&lt;br&gt;&lt;span&gt;Month&lt;br&gt;Date&lt;br&gt;Channel&lt;/span&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="2900" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-173" value="承上, &lt;font color=&quot;#ffff33&quot; style=&quot;background-color: rgb(255 , 0 , 0)&quot;&gt;Date&lt;/font&gt;&lt;br&gt;新增欄位中的Date手動調整成當月最後一天ie 28, 30 or 31" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="3080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-175" value="&#39;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;YearMon&#39;,&lt;/span&gt;&lt;br&gt;&#39;Prod_ID&#39;, &lt;br&gt;&#39;Prod_Desc&#39;,&lt;br&gt;&#39;Store&#39;,&lt;br&gt;&#39;Amt&#39;,&lt;br&gt;&#39;Qty&#39;&lt;br&gt;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;Year&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;Month&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 0 , 0)&quot;&gt;&lt;font color=&quot;#ffff33&quot;&gt;Date&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;Channel&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="3080" width="120" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
