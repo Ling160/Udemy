@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T16:38:46.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="633IbIVMUoN93tQBUwIn" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-07T08:45:32.523Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="enmR55J157iUoCwkcM_l" version="15.6.6" type="github">
   <diagram id="pbF9PYGYmpb1I7H2cWJg" name="Page-1">
-    <mxGraphModel dx="447" dy="249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="807" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -111,9 +111,6 @@
         <mxCell id="p17HGIqBA7eMovYmSIhO-35" value="mt_old 刪除重複的Prod_ID資(利用drop_duplicates by Prod_ID)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=default;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="545" y="1910" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="p17HGIqBA7eMovYmSIhO-39" value="&lt;span style=&quot;background-color: rgb(229 , 204 , 255)&quot;&gt;Prod_ID&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;,&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;Prod_Desc,&lt;br&gt;&lt;/span&gt;SAP#&lt;br&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="680" y="1620" width="90" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="p17HGIqBA7eMovYmSIhO-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-41" target="p17HGIqBA7eMovYmSIhO-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -121,7 +118,7 @@
           <mxGeometry x="780" y="1770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p17HGIqBA7eMovYmSIhO-42" value="&lt;div&gt;3M料號&lt;/div&gt;&lt;div&gt;Dept&lt;/div&gt;&lt;div&gt;Prod_Desc&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(229 , 204 , 255)&quot;&gt;Prod_ID&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Sub-Dept&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="930" y="1770" width="60" height="70" as="geometry" />
+          <mxGeometry x="920" y="1770" width="60" height="70" as="geometry" />
         </mxCell>
         <mxCell id="p17HGIqBA7eMovYmSIhO-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-43" target="p17HGIqBA7eMovYmSIhO-45">
           <mxGeometry relative="1" as="geometry">
@@ -161,7 +158,7 @@
         <mxCell id="p17HGIqBA7eMovYmSIhO-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-54" target="p17HGIqBA7eMovYmSIhO-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p17HGIqBA7eMovYmSIhO-54" value="跑Python程式上半pos部分" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="p17HGIqBA7eMovYmSIhO-54" value="跑Python程式上半pos部分&lt;br&gt;Car4_Daily_Pos_Automation&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="340" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p17HGIqBA7eMovYmSIhO-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;dashed=1;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-58" target="p17HGIqBA7eMovYmSIhO-52">
@@ -208,6 +205,65 @@
         </mxCell>
         <mxCell id="p17HGIqBA7eMovYmSIhO-73" value="存出檔案Matching Table.xlsx" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="310" y="2900" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontSize=50;fontColor=default;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-75" target="p17HGIqBA7eMovYmSIhO-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-75" value="POS Matching Table Engine裡的python&lt;br&gt;Carrefour Matching Table -- Daily add!" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-76" value="VS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=default;fontStyle=1;fontSize=50;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1635" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=50;fontColor=default;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-77" target="p17HGIqBA7eMovYmSIhO-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-77" value="讀取舊有的Matching table, 存放於df_mt內" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;fillColor=#d5e8d4;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-79" value="第一欄(沒有欄位名稱&lt;span style=&quot;background-color: rgb(229 , 204 , 255)&quot;&gt;)&lt;br&gt;Prod_ID&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;,&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;Prod_Desc,&lt;br&gt;&lt;/span&gt;SAP#&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="1620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=50;fontColor=default;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-80" target="p17HGIqBA7eMovYmSIhO-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-80" value="第一欄(沒有欄位名稱)當作 index column" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;fillColor=#d5e8d4;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-82" value="第一欄(沒有欄位名稱&lt;span style=&quot;background-color: rgb(229 , 204 , 255)&quot;&gt;)&lt;br&gt;Prod_ID&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;,&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;Prod_Desc,&lt;br&gt;&lt;/span&gt;SAP#&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontSize=50;fontColor=default;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-83" target="p17HGIqBA7eMovYmSIhO-91">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1370" y="2010" />
+              <mxPoint x="1160" y="2010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-83" value="讀取舊有C4 department資料, 存放於sdlf_mt內" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d79b00;fillColor=#ffe6cc;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="1770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-84" value="&lt;div&gt;3M料號&lt;/div&gt;&lt;div&gt;Dept&lt;/div&gt;&lt;div&gt;Prod_Desc&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(229 , 204 , 255)&quot;&gt;Prod_ID&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Sub-Dept&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="1770" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=50;fontColor=default;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-87" target="p17HGIqBA7eMovYmSIhO-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-87" value="SAP# data type轉換成float再轉成string" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;fillColor=#d5e8d4;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=50;fontColor=default;strokeColor=default;" edge="1" parent="1" source="p17HGIqBA7eMovYmSIhO-89" target="p17HGIqBA7eMovYmSIhO-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-89" value="SAP# data type轉換成float再轉成string" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;fillColor=#d5e8d4;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-91" value="SAP# data type轉換成float再轉成string" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;fillColor=#d5e8d4;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="2050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17HGIqBA7eMovYmSIhO-98" value="merge how = &#39;left&#39;&lt;br&gt;left: &lt;span style=&quot;background-color: rgb(229 , 204 , 255)&quot;&gt;Prod_ID&lt;/span&gt;&lt;br&gt;right:&amp;nbsp;&lt;span style=&quot;background-color: rgb(229 , 204 , 255)&quot;&gt;Prod_ID&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1235" y="1990" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
