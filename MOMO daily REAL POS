@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T08:46:41.970Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="7kUwU2YeAoo9f0mAXwCL" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-07T12:46:08.702Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="JrBzt_A5xUwD5haTaCO8" version="15.6.6" type="github">
   <diagram id="YJeu-k9PsVAki96pWgcC" name="Page-1">
     <mxGraphModel dx="1632" dy="1536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -140,6 +140,14 @@
         <mxCell id="sAMPVpFcjQosjyyKbKnH-104" value="Prod_ID,&lt;br&gt;Prod_Desc&lt;br&gt;SAP#" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="788" y="910" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;endArrow=classic;endFill=1;strokeColor=default;fillColor=default;" edge="1" parent="1" source="sAMPVpFcjQosjyyKbKnH-105" target="sAMPVpFcjQosjyyKbKnH-127">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="683" y="1630" />
+              <mxPoint x="365" y="1630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="sAMPVpFcjQosjyyKbKnH-105" value="選取所需欄位" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="608" y="1010" width="150" height="60" as="geometry" />
         </mxCell>
@@ -185,14 +193,25 @@
         <mxCell id="sAMPVpFcjQosjyyKbKnH-120" value="選取所需欄位再次存入df中" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="290" y="1345" width="150" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;endArrow=classic;endFill=1;strokeColor=default;fillColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sAMPVpFcjQosjyyKbKnH-123" target="sAMPVpFcjQosjyyKbKnH-127">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="1610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="sAMPVpFcjQosjyyKbKnH-123" value="更改欄位名" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="290" y="1470" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sAMPVpFcjQosjyyKbKnH-125" value="&amp;lt;cf&amp;gt; 相較於上次, 本次&lt;font&gt;未&lt;/font&gt;選擇訂單編號&amp;amp;地區" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-10" y="1360" width="125" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sAMPVpFcjQosjyyKbKnH-126" value="&amp;lt;cf&amp;gt;&#39;&#39;客編&#39;&#39;上次命名為&lt;span style=&quot;background-color: rgb(0 , 255 , 255)&quot;&gt;&#39;Membership&#39;,&lt;/span&gt;&lt;br&gt;本次則是&lt;span style=&quot;background-color: rgb(0 , 255 , 255)&quot;&gt;&#39;Customer_ID&#39;,&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry y="1490" width="125" height="30" as="geometry" />
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-126" value="&amp;lt;cf&amp;gt;&#39;&#39;客編&#39;&#39;上次命名為&lt;span style=&quot;&quot;&gt;&#39;Membership&#39;,&lt;/span&gt;&lt;br&gt;本次則是&lt;span style=&quot;&quot;&gt;&#39;Customer_ID&#39;,&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1490" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-127" value="更改欄位名" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1690" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sAMPVpFcjQosjyyKbKnH-131" value="merge how = &#39;left&#39;&lt;br&gt;left: Prod_ID&lt;font color=&quot;#ff0000&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;br&gt;right: Prod_ID&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1580" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
