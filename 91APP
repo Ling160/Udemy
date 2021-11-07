@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-07T13:20:06.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="MaTuIo0tV0DETjFmXDtN" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-07T13:21:17.601Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="qKyj90ekFYjLAtIZrk-4" version="15.7.0" type="github">
   <diagram id="Tr7-KsZJzlOLgDVXrOY-" name="Page-1">
-    <mxGraphModel dx="372" dy="208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="447" dy="249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,11 +22,20 @@
         <mxCell id="R4fQQOyCzwoItkcEd63j-5" value="57個columns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="260" y="340" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="R4fQQOyCzwoItkcEd63j-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R4fQQOyCzwoItkcEd63j-6" target="R4fQQOyCzwoItkcEd63j-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="R4fQQOyCzwoItkcEd63j-6" value="select needed 9 columns, 存入df" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R4fQQOyCzwoItkcEd63j-8" value="&lt;div&gt;&#39;主單編號&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;轉單日期時間&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;商品名稱&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;商品料號&#39;,&lt;span&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&#39;數量&#39;,&lt;/div&gt;&lt;div&gt;&#39;銷售金額(折扣後)&#39;,&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;會員編號&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;地址&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;訂單來源&#39;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="220" y="480" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="R4fQQOyCzwoItkcEd63j-9" value="add new column named channel for assgin &#39;91app&#39;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R4fQQOyCzwoItkcEd63j-11" value="&lt;div&gt;&#39;主單編號&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;轉單日期時間&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;商品名稱&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;商品料號&#39;,&lt;span&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&#39;數量&#39;,&lt;/div&gt;&lt;div&gt;&#39;銷售金額(折扣後)&#39;,&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;會員編號&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;地址&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;訂單來源&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;Channel&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="620" width="120" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
