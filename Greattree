@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T03:35:19.143Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="RsCR7IwSH2iz1qspuBkW" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T03:40:45.845Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="GDGiZV5KyvL331T0Sbl8" version="15.7.0" type="github">
   <diagram id="avC4_GUMAbgkmxRWUHAE" name="Page-1">
     <mxGraphModel dx="539" dy="277" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="Bq81SZjszOhPOPJYjCuR-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bq81SZjszOhPOPJYjCuR-2" target="Bq81SZjszOhPOPJYjCuR-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Bq81SZjszOhPOPJYjCuR-2" value="YearMonth, 會讀檔名的數字(YYYYMM)後assign給 variable YearMonth" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-2" value="YearMonth, 會讀檔名的數字(YYYYMM)後assign給 variable &lt;span style=&quot;background-color: rgb(255 , 0 , 128)&quot;&gt;YearMon&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Bq81SZjszOhPOPJYjCuR-4" value="品號&lt;br&gt;品名&lt;br&gt;銷量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -120,8 +120,23 @@
         <mxCell id="Bq81SZjszOhPOPJYjCuR-38" value="&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;Prod_ID&lt;/span&gt;&lt;br&gt;Prod_Desc&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 0)&quot;&gt;Qty&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(213 , 232 , 212)&quot;&gt;商品編號&lt;/span&gt;&lt;br&gt;條碼&lt;br&gt;商品名稱&lt;br&gt;SAP#&lt;br&gt;Price&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 128 , 0)&quot;&gt;Cost&lt;/span&gt;&lt;br&gt;Margin&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 0 , 0)&quot;&gt;Amt&lt;br&gt;Channel&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="270" y="1220" width="60" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="Bq81SZjszOhPOPJYjCuR-39" value="create 4 new variable&lt;br&gt;Year, Month, YearMon, Date" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bq81SZjszOhPOPJYjCuR-39" target="Bq81SZjszOhPOPJYjCuR-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-39" value="create 4 new variable&lt;br&gt;Year, Month, YearMon, Date&lt;br&gt;(by slicing &lt;span style=&quot;background-color: rgb(255 , 0 , 128)&quot;&gt;YearMon&lt;/span&gt;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="1470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-41" value="&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;Prod_ID&lt;/span&gt;&lt;br&gt;Prod_Desc&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 0)&quot;&gt;Qty&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(213 , 232 , 212)&quot;&gt;商品編號&lt;/span&gt;&lt;br&gt;條碼&lt;br&gt;商品名稱&lt;br&gt;SAP#&lt;br&gt;Price&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 128 , 0)&quot;&gt;Cost&lt;/span&gt;&lt;br&gt;Margin&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 0 , 0)&quot;&gt;Amt&lt;br&gt;Channel&lt;br&gt;Year&lt;br&gt;Month&lt;br&gt;YearMon&lt;br&gt;Date&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1440" width="60" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-42" value="select desire column and restore to df" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-44" value="Prod_ID&lt;br&gt;Prod_Desc&lt;br&gt;Qty&lt;br&gt;Date&lt;br&gt;Year&lt;br&gt;Amt&lt;br&gt;Month&lt;br&gt;YearMon&lt;br&gt;Channel&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1740" width="60" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-45" value="ps. Date在此是用&lt;span style=&quot;background-color: rgb(255 , 0 , 128)&quot;&gt;YearMon&lt;/span&gt; + &#39;01&#39; 來設定" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1670" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
