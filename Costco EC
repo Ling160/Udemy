@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T06:11:55.713Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.7.0" etag="6SeCNcK1qa_lh3pNqD-f" type="github"><diagram id="RNQB2M6-ii6qKgXe_sSj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-08T06:20:53.934Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="sG6WnL8XOx9TnVVHXl2d" version="15.7.0" type="github">
+  <diagram id="RNQB2M6-ii6qKgXe_sSj" name="Page-1">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-1" target="v1tN3yAWTfvBBFqd2n0M-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-1" value="Costco EC&lt;br&gt;sales 寄來excel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-2" target="v1tN3yAWTfvBBFqd2n0M-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-2" value="切記: 不要亂加數字再檔名!! 因為檔名數字等等會存成變數跑code" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-4" target="v1tN3yAWTfvBBFqd2n0M-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-4" value="抓檔名的阿拉伯數字並存入variable Year" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-6" target="v1tN3yAWTfvBBFqd2n0M-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-6" value="讀出excel&lt;br&gt;monthy &lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;pos&lt;/span&gt; 存入df&lt;br&gt;(excel從第二列開始取資料, so header = 1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-8" value="讀出excel&lt;br&gt;monthy &lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;退貨&lt;/span&gt; 存入df&lt;br&gt;(excel從第二列開始取資料, so header = 1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
