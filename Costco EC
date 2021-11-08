@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T06:20:53.934Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="sG6WnL8XOx9TnVVHXl2d" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T06:24:20.222Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Q-cSkGa7-tlvDoVPV8x6" version="15.7.0" type="github">
   <diagram id="RNQB2M6-ii6qKgXe_sSj" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -28,8 +28,20 @@
         <mxCell id="v1tN3yAWTfvBBFqd2n0M-6" value="讀出excel&lt;br&gt;monthy &lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;pos&lt;/span&gt; 存入df&lt;br&gt;(excel從第二列開始取資料, so header = 1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="v1tN3yAWTfvBBFqd2n0M-8" value="讀出excel&lt;br&gt;monthy &lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;退貨&lt;/span&gt; 存入df&lt;br&gt;(excel從第二列開始取資料, so header = 1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-8" target="v1tN3yAWTfvBBFqd2n0M-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-8" value="讀出excel&lt;br&gt;monthy &lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;退貨&lt;/span&gt; 存入df_return&lt;br&gt;(excel從第二列開始取資料, so header = 1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-10" target="v1tN3yAWTfvBBFqd2n0M-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-10" value="df剃除&#39;好市多產品編號&#39;為空白的資料列&lt;br&gt;再存回&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;df&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-12" value="df_return剃除&#39;好市多產品編號&#39;為空白的資料列&lt;br&gt;再存回&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;df_return&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="920" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
