@@ -1,1 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T03:07:37.220Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.7.0" etag="XunComhOOpv9DqYJMO2z" type="github"><diagram id="avC4_GUMAbgkmxRWUHAE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-08T03:22:15.410Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="_HSnfjvrw4d0Q48TIceO" version="15.7.0" type="github">
+  <diagram id="avC4_GUMAbgkmxRWUHAE" name="Page-1">
+    <mxGraphModel dx="539" dy="277" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bq81SZjszOhPOPJYjCuR-1" target="Bq81SZjszOhPOPJYjCuR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-1" value="大樹檔案, sales給的兩個excel, 先manually 貼成一個檔案, 檔名要有&#39;大樹&#39;與&#39;YYYYMM&#39;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bq81SZjszOhPOPJYjCuR-2" target="Bq81SZjszOhPOPJYjCuR-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-2" value="YearMonth, 會讀檔名的數字(YYYYMM)後assign給 variable YearMonth" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-4" value="品號&lt;br&gt;品名&lt;br&gt;銷量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="460" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bq81SZjszOhPOPJYjCuR-5" target="Bq81SZjszOhPOPJYjCuR-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-5" value="df 選取所需3欄位(全部也只有3欄位)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bq81SZjszOhPOPJYjCuR-7" target="Bq81SZjszOhPOPJYjCuR-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-7" value="df rename those 3 columns name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-9" value="&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;Prod_ID&lt;/span&gt;&lt;br&gt;Prod_Desc&lt;br&gt;Qty" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="600" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bq81SZjszOhPOPJYjCuR-10" target="Bq81SZjszOhPOPJYjCuR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-10" value="開啟mt.xlsx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="510" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-11" value="&lt;span style=&quot;background-color: rgb(213 , 232 , 212)&quot;&gt;商品編號&lt;/span&gt;&lt;br&gt;條碼&lt;br&gt;商品名稱&lt;br&gt;SAP#&lt;br&gt;Price&lt;br&gt;Cost&lt;br&gt;Margin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="460" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bq81SZjszOhPOPJYjCuR-12" target="Bq81SZjszOhPOPJYjCuR-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="710" />
+              <mxPoint x="400" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-12" value="讀出檔案存在&lt;br&gt;variable mt" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="510" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bq81SZjszOhPOPJYjCuR-14" target="Bq81SZjszOhPOPJYjCuR-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-14" value="df rename those 3 columns name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-17" value="merge, how = &#39;left&#39;,&lt;br&gt;left_on = &lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;&#39;Prod_ID&#39;&lt;/span&gt;&lt;br&gt;right_on = &lt;span style=&quot;background-color: rgb(213 , 232 , 212)&quot;&gt;&#39;商品編號&#39;&lt;/span&gt;&lt;br&gt;indicator = True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="680" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-18" value="df rename those 3 columns name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
