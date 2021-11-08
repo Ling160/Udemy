@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T12:39:06.163Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="VazoCdYB9Appm8MYPhMv" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T12:41:03.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="AigSHJjg2gs5mz_tQLZR" version="15.7.0" type="github">
   <diagram id="gsNL-jrCNIgx8pp5A3Ve" name="Page-1">
     <mxGraphModel dx="782" dy="1536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -275,11 +275,17 @@
         <mxCell id="w-VXATKoN6ODccG3m0pk-99" value="print out the mismatch on Terminal" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="1130" y="1890" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="w-VXATKoN6ODccG3m0pk-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=12;" edge="1" parent="1" source="w-VXATKoN6ODccG3m0pk-101" target="w-VXATKoN6ODccG3m0pk-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="w-VXATKoN6ODccG3m0pk-101" value="print out the mismatch on Terminal" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="1130" y="2030" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w-VXATKoN6ODccG3m0pk-103" value="存出mismatch STORE excel&lt;br&gt;WLC 優化 &amp;gt;///&amp;lt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="440" y="1620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w-VXATKoN6ODccG3m0pk-105" value="存出mismatch PRODUCT excel&lt;br&gt;wlc 優化&amp;gt;///&amp;lt;" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="2170" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
