@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T06:38:38.999Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="3x7v2iBMTM9A-lYkohrT" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T06:39:56.281Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="DnScKgHbr5VunbmI2ygj" version="15.7.0" type="github">
   <diagram id="RNQB2M6-ii6qKgXe_sSj" name="Page-1">
     <mxGraphModel dx="539" dy="301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -88,8 +88,17 @@
         <mxCell id="v1tN3yAWTfvBBFqd2n0M-26" value="反樞紐後的variable取最後一個字元(Q or A)存入new variable &#39;Q/A&#39;內" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="1900" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-28" target="v1tN3yAWTfvBBFqd2n0M-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="v1tN3yAWTfvBBFqd2n0M-28" value="反樞紐後的variable從頭開始取, 取到倒數第二個字元 存入new variable &#39;YearMon&#39;內" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="2040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-30" value="select desired columns and restore into variable df" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="2180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-32" value="&#39;Prod_ID&#39;,&lt;br&gt;&amp;nbsp;&#39;Prod_Desc&#39;, &lt;br&gt;&#39;YearMon&#39;,&lt;br&gt;&amp;nbsp;&#39;value&#39;,&lt;br&gt;&amp;nbsp;&#39;Q/A&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2180" width="80" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
