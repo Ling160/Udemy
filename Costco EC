@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T06:51:20.769Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="PnMIKQm0XIIGW0VxFRMk" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T06:53:09.731Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="6wCFOQVMz9rv1D8TH4Ul" version="15.7.0" type="github">
   <diagram id="RNQB2M6-ii6qKgXe_sSj" name="Page-1">
     <mxGraphModel dx="539" dy="301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -134,8 +134,23 @@
         <mxCell id="v1tN3yAWTfvBBFqd2n0M-41" value="&lt;font color=&quot;#ff0000&quot; style=&quot;background-color: rgb(255, 255, 51); font-size: 40px;&quot;&gt;待研究甚麼意思&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=40;" vertex="1" parent="1">
           <mxGeometry x="80" y="2600" width="170" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=40;fontColor=#FF0000;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-42" target="v1tN3yAWTfvBBFqd2n0M-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="v1tN3yAWTfvBBFqd2n0M-42" value="rename column in df" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="2740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=40;fontColor=#FF0000;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-44" target="v1tN3yAWTfvBBFqd2n0M-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-44" value="排除amt為0的資料列&lt;br&gt;restore df" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="2880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-46" value="add 4 new column: Channel, Date,&lt;br&gt;Year, Month" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="3020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-48" value="Date設定為每月1號" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="3030" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
