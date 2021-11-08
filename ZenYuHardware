@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T14:26:10.155Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="XvS-svRr4NeMQRjCLcB4" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T14:27:17.548Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="WQpbrxipoJCmm8meZFOp" version="15.7.0" type="github">
   <diagram id="gsNL-jrCNIgx8pp5A3Ve" name="Page-1">
-    <mxGraphModel dx="539" dy="1401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="1584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -415,10 +415,10 @@
         <mxCell id="w-VXATKoN6ODccG3m0pk-152" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#FF0000;" edge="1" parent="1" source="w-VXATKoN6ODccG3m0pk-149" target="w-VXATKoN6ODccG3m0pk-151">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w-VXATKoN6ODccG3m0pk-149" value="跑資料當天的日期是為庫存Date, create new variable Date" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="w-VXATKoN6ODccG3m0pk-149" value="跑資料當天的日期是為庫存Date, create new variable Date" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
           <mxGeometry x="1400" y="1930" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="w-VXATKoN6ODccG3m0pk-156" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#FF0000;" edge="1" parent="1" source="w-VXATKoN6ODccG3m0pk-151" target="w-VXATKoN6ODccG3m0pk-155">
+        <mxCell id="w-VXATKoN6ODccG3m0pk-156" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#FF0000;dashed=1;" edge="1" parent="1" source="w-VXATKoN6ODccG3m0pk-151" target="w-VXATKoN6ODccG3m0pk-155">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w-VXATKoN6ODccG3m0pk-151" value="create another 3 new variables: Year, YearMon, Channel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -430,7 +430,7 @@
         <mxCell id="w-VXATKoN6ODccG3m0pk-154" value="門市&lt;br&gt;&#39;Prod_ID&#39;,&lt;br&gt;&amp;nbsp;&#39;Prod_Desc&#39;,&lt;br&gt;&amp;nbsp;&#39;&lt;font color=&quot;#ff0000&quot;&gt;&amp;nbsp;&#39;Stock_Qty&#39;&lt;br&gt;Date&lt;br&gt;Year&lt;br&gt;YearMon&lt;br&gt;Channel&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="1290" y="2080" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="w-VXATKoN6ODccG3m0pk-155" value="" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="w-VXATKoN6ODccG3m0pk-155" value="存出 stock csv&lt;br&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;background-color: rgb(255 , 255 , 0)&quot;&gt;庫存日期為跑資料當天的日期&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1400" y="2210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
