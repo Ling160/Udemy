@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T12:44:21.266Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="d1F7_7Bpgyuro5vyka_L" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T12:57:56.858Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Xf_ZXzy-bu2l_q9t2sEb" version="15.7.0" type="github">
   <diagram id="gsNL-jrCNIgx8pp5A3Ve" name="Page-1">
     <mxGraphModel dx="652" dy="1463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -287,10 +287,10 @@
         <mxCell id="w-VXATKoN6ODccG3m0pk-101" value="print out the mismatch on Terminal" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="1130" y="2030" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="w-VXATKoN6ODccG3m0pk-103" value="存出mismatch STORE excel&lt;br&gt;WLC 優化 &amp;gt;///&amp;lt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="w-VXATKoN6ODccG3m0pk-103" value="存出missing STORE excel&lt;br&gt;WLC 優化 &amp;gt;///&amp;lt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="440" y="1620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="w-VXATKoN6ODccG3m0pk-105" value="存出mismatch PRODUCT excel&lt;br&gt;wlc 優化&amp;gt;///&amp;lt;" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+        <mxCell id="w-VXATKoN6ODccG3m0pk-105" value="存出missing PRODUCT excel&lt;br&gt;wlc 優化&amp;gt;///&amp;lt;" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
           <mxGeometry x="1130" y="2170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w-VXATKoN6ODccG3m0pk-107" value="存出mt 為 振宇產品對照表.xlsx" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
@@ -319,6 +319,9 @@
         </mxCell>
         <mxCell id="w-VXATKoN6ODccG3m0pk-117" value="&#39;Prod_ID&#39;,&amp;nbsp; &#39;Prod_Desc&#39;, &#39;SAP#&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="810" y="2170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-VXATKoN6ODccG3m0pk-118" value="Spliting Engine.py -&amp;gt;&amp;nbsp; #振宇 STOCK Split" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="130" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
