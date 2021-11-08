@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T07:52:58.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="fIi2iwmstwVmaVzF8Mdj" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T08:04:04.194Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="3IRYb57YsLUWb7WBkI8-" version="15.7.0" type="github">
   <diagram id="RNQB2M6-ii6qKgXe_sSj" name="Page-1">
-    <mxGraphModel dx="539" dy="1401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="1463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -198,7 +198,7 @@
           <mxGeometry x="290" y="-110" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="v1tN3yAWTfvBBFqd2n0M-66" value="maching&lt;br&gt;table" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=22;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="580" y="-110" width="60" height="30" as="geometry" />
+          <mxGeometry x="580" y="-110" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="v1tN3yAWTfvBBFqd2n0M-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;fontColor=#000000;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-67" target="v1tN3yAWTfvBBFqd2n0M-69">
           <mxGeometry relative="1" as="geometry" />
@@ -211,6 +211,57 @@
         </mxCell>
         <mxCell id="v1tN3yAWTfvBBFqd2n0M-72" value="Prod_ID&lt;br&gt;Prod_Desc&lt;br&gt;SAP%" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="480" y="360" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="v1tN3yAWTfvBBFqd2n0M-88" target="v1tN3yAWTfvBBFqd2n0M-90" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-88" value="抓檔名的阿拉伯數字並存入variable Year" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="750" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="v1tN3yAWTfvBBFqd2n0M-90" target="v1tN3yAWTfvBBFqd2n0M-92" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-90" value="讀出excel&lt;br&gt;monthy &lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;pos&lt;/span&gt; 存入df&lt;br&gt;(excel從第二列開始取資料, so header = 1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="750" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="v1tN3yAWTfvBBFqd2n0M-92" target="v1tN3yAWTfvBBFqd2n0M-94" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-92" value="讀出excel&lt;br&gt;monthy &lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;退貨&lt;/span&gt; 存入df_return&lt;br&gt;(excel從第二列開始取資料, so header = 1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="750" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="v1tN3yAWTfvBBFqd2n0M-94" target="v1tN3yAWTfvBBFqd2n0M-95" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-94" value="df剃除&#39;好市多產品編號&#39;為空白的資料列&lt;br&gt;再存回&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;df&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="750" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-95" target="v1tN3yAWTfvBBFqd2n0M-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-95" value="df_return剃除&#39;好市多產品編號&#39;為空白的資料列&lt;br&gt;再存回&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;df_return&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="750" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-97" target="v1tN3yAWTfvBBFqd2n0M-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-97" value="Costco EC&lt;br&gt;sales 寄來excel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="750" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-101" target="v1tN3yAWTfvBBFqd2n0M-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-101" value="取出df desired columns" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-103" value="&#39;好市多產品編號&#39;,&lt;br&gt;&amp;nbsp;&#39;商品名稱&#39;, &lt;br&gt;&#39;3M料號&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1060" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-104" value="取出df_return desired columns" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-106" value="&#39;好市多產品編號&#39;,&lt;br&gt;&amp;nbsp;&#39;商品名稱&#39;, &lt;br&gt;&#39;3M料號&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1200" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
