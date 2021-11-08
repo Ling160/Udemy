@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T08:04:04.194Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="3IRYb57YsLUWb7WBkI8-" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T09:10:06.753Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="jds0XtYWuAzGQ4YB130n" version="15.7.0" type="github">
   <diagram id="RNQB2M6-ii6qKgXe_sSj" name="Page-1">
-    <mxGraphModel dx="652" dy="1463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="593" dy="1432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -206,6 +206,9 @@
         <mxCell id="v1tN3yAWTfvBBFqd2n0M-67" value="利用matching 檔名阿拉伯數字, 存new variable &#39;Year&#39;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="220" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-69" target="v1tN3yAWTfvBBFqd2n0M-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="v1tN3yAWTfvBBFqd2n0M-69" value="df_mt的column &#39;SAP#&#39; change data type to string" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="360" width="120" height="60" as="geometry" />
         </mxCell>
@@ -257,11 +260,61 @@
         <mxCell id="v1tN3yAWTfvBBFqd2n0M-103" value="&#39;好市多產品編號&#39;,&lt;br&gt;&amp;nbsp;&#39;商品名稱&#39;, &lt;br&gt;&#39;3M料號&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="900" y="1060" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-104" target="v1tN3yAWTfvBBFqd2n0M-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="v1tN3yAWTfvBBFqd2n0M-104" value="取出df_return desired columns" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="750" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v1tN3yAWTfvBBFqd2n0M-106" value="&#39;好市多產品編號&#39;,&lt;br&gt;&amp;nbsp;&#39;商品名稱&#39;, &lt;br&gt;&#39;3M料號&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="900" y="1200" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-107" target="v1tN3yAWTfvBBFqd2n0M-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-107" value="df_return append 在df後存回df" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-109" value="&#39;好市多產品編號&#39;,&lt;br&gt;&amp;nbsp;&#39;商品名稱&#39;, &lt;br&gt;&#39;3M料號&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1340" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-110" target="v1tN3yAWTfvBBFqd2n0M-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-110" value="change columns name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-112" value="Prod_ID,&lt;br&gt;Prod_Desc,&lt;br&gt;SAP#" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1620" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-113" target="v1tN3yAWTfvBBFqd2n0M-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-113" value="df drop_duplicates(by Prod_ID)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-115" target="v1tN3yAWTfvBBFqd2n0M-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-115" value="fillna with 0 for column SAP#" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-117" target="v1tN3yAWTfvBBFqd2n0M-119">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="2040" />
+              <mxPoint x="620" y="2040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-117" value="SAP# data type change to string" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-119" value="df_mt的column &#39;SAP#&#39; change data type to string" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="2090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-125" value="append df to df_mt, then store back to df" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="660" y="2010" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
