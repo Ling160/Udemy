@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T22:55:58.410Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="3o7RL4J_MO76fmgQvJp2" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T22:59:13.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="2T3S_BBualjn7mr0po-g" version="15.7.0" type="github">
   <diagram id="ZERmskrMrg5MCVIuEYjP" name="Page-1">
     <mxGraphModel dx="652" dy="335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -55,8 +55,8 @@
         <mxCell id="NiBa1T9Sd3-0FUEfMiYz-15" value="create new columns YearMon by slicing variable file" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-17" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1320" width="120" height="60" as="geometry" />
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-17" value="select needed columns" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NiBa1T9Sd3-0FUEfMiYz-19" value="&lt;div&gt;&#39;Distributor&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;Store&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;Prod_ID_old&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Cate&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Amt&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Qty&#39;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="1040" width="100" height="120" as="geometry" />
@@ -69,6 +69,9 @@
         </mxCell>
         <mxCell id="NiBa1T9Sd3-0FUEfMiYz-23" value="&lt;div&gt;&#39;Distributor&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;Store&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;Prod_ID_old&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Cate&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Amt&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Qty&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;YearMon&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="1180" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-24" value="&lt;div&gt;&lt;span&gt;&amp;nbsp;&#39;Store&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&lt;/span&gt;&lt;/div&gt;&amp;nbsp;&#39;Prod_Desc&#39;,&lt;div&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&#39;Amt&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Qty&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;YearMon&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1340" width="100" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
