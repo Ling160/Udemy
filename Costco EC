@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T06:56:00.858Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="KY1VR6NbXOSJKx6GgvnX" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T07:12:01.036Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="UiwF4ulA9n42FgatioPO" version="15.7.0" type="github">
   <diagram id="RNQB2M6-ii6qKgXe_sSj" name="Page-1">
     <mxGraphModel dx="539" dy="301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -146,11 +146,35 @@
         <mxCell id="v1tN3yAWTfvBBFqd2n0M-44" value="排除amt為0的資料列&lt;br&gt;restore df" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="2880" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-46" target="v1tN3yAWTfvBBFqd2n0M-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="v1tN3yAWTfvBBFqd2n0M-46" value="add 4 new column: Channel, Date,&lt;br&gt;Year, Month" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="3020" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v1tN3yAWTfvBBFqd2n0M-48" value="Date設定為每月1號" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="160" y="3030" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-49" target="v1tN3yAWTfvBBFqd2n0M-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-49" value="df[&#39;YearMon&#39;]取出unique值, 回傳為一list, 再用max取出單一值(最新年度月份) 存入variable latest" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="3160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-51" target="v1tN3yAWTfvBBFqd2n0M-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-51" value="利用lastest篩選&lt;br&gt;YearMon為最新年度月份的資料列restore back to df&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="3300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;dashed=1;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-53" target="v1tN3yAWTfvBBFqd2n0M-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-53" value="print in terminal the shape of this df" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="3440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-55" value="存出 transaction csv檔" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="250" y="3580" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
