@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T03:22:15.410Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="_HSnfjvrw4d0Q48TIceO" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T03:25:14.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="_VOacs4eLEDg4HDm0vHl" version="15.7.0" type="github">
   <diagram id="avC4_GUMAbgkmxRWUHAE" name="Page-1">
     <mxGraphModel dx="539" dy="277" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -57,14 +57,20 @@
         <mxCell id="Bq81SZjszOhPOPJYjCuR-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bq81SZjszOhPOPJYjCuR-14" target="Bq81SZjszOhPOPJYjCuR-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Bq81SZjszOhPOPJYjCuR-14" value="df rename those 3 columns name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-14" value="_merge為&#39;left_only&#39;的資料存入 new variable mismatch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Bq81SZjszOhPOPJYjCuR-17" value="merge, how = &#39;left&#39;,&lt;br&gt;left_on = &lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;&#39;Prod_ID&#39;&lt;/span&gt;&lt;br&gt;right_on = &lt;span style=&quot;background-color: rgb(213 , 232 , 212)&quot;&gt;&#39;商品編號&#39;&lt;/span&gt;&lt;br&gt;indicator = True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="450" y="680" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Bq81SZjszOhPOPJYjCuR-18" value="df rename those 3 columns name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bq81SZjszOhPOPJYjCuR-18" target="Bq81SZjszOhPOPJYjCuR-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-18" value="mismatch drop_duplicate (by 商品編號) 再存回&lt;br&gt;mismatch內" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-20" value="mismatch 篩選Prod_Desc有含&#39;3M&#39;的資料列 再存回&lt;br&gt;mismatch內" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1020" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
