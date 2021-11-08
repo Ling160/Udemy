@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T03:29:19.433Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="BvyChrffXmFsH5OTpFNF" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T03:31:52.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="2MnAH23D8mZQbHB_Mooz" version="15.7.0" type="github">
   <diagram id="avC4_GUMAbgkmxRWUHAE" name="Page-1">
-    <mxGraphModel dx="920" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,7 +31,7 @@
         <mxCell id="Bq81SZjszOhPOPJYjCuR-7" value="df rename those 3 columns name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Bq81SZjszOhPOPJYjCuR-9" value="&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;Prod_ID&lt;/span&gt;&lt;br&gt;Prod_Desc&lt;br&gt;Qty" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-9" value="&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;Prod_ID&lt;/span&gt;&lt;br&gt;Prod_Desc&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 0)&quot;&gt;Qty&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="260" y="600" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Bq81SZjszOhPOPJYjCuR-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bq81SZjszOhPOPJYjCuR-10" target="Bq81SZjszOhPOPJYjCuR-12">
@@ -40,7 +40,7 @@
         <mxCell id="Bq81SZjszOhPOPJYjCuR-10" value="開啟mt.xlsx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="580" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Bq81SZjszOhPOPJYjCuR-11" value="&lt;span style=&quot;background-color: rgb(213 , 232 , 212)&quot;&gt;商品編號&lt;/span&gt;&lt;br&gt;條碼&lt;br&gt;商品名稱&lt;br&gt;SAP#&lt;br&gt;Price&lt;br&gt;Cost&lt;br&gt;Margin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-11" value="&lt;span style=&quot;background-color: rgb(213 , 232 , 212)&quot;&gt;商品編號&lt;/span&gt;&lt;br&gt;條碼&lt;br&gt;商品名稱&lt;br&gt;SAP#&lt;br&gt;Price&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 128 , 0)&quot;&gt;Cost&lt;/span&gt;&lt;br&gt;Margin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="730" y="460" width="60" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Bq81SZjszOhPOPJYjCuR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bq81SZjszOhPOPJYjCuR-12" target="Bq81SZjszOhPOPJYjCuR-14">
@@ -55,6 +55,9 @@
           <mxGeometry x="580" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Bq81SZjszOhPOPJYjCuR-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bq81SZjszOhPOPJYjCuR-14" target="Bq81SZjszOhPOPJYjCuR-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bq81SZjszOhPOPJYjCuR-14" target="Bq81SZjszOhPOPJYjCuR-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Bq81SZjszOhPOPJYjCuR-14" value="_merge為&#39;left_only&#39;的資料存入 new variable mismatch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -73,22 +76,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Bq81SZjszOhPOPJYjCuR-20" value="mismatch 篩選Prod_Desc有含&#39;3M&#39;的資料列 再存回&lt;br&gt;mismatch內" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="860" width="120" height="60" as="geometry" />
+          <mxGeometry x="570" y="880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Bq81SZjszOhPOPJYjCuR-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bq81SZjszOhPOPJYjCuR-22" target="Bq81SZjszOhPOPJYjCuR-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Bq81SZjszOhPOPJYjCuR-22" value="code terminal會先印出mismatch的內容 (可以先預覽), 此應該要沒有任何資料(row show be zero)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="980" width="120" height="60" as="geometry" />
+          <mxGeometry x="570" y="1020" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Bq81SZjszOhPOPJYjCuR-24" value="存出&lt;br&gt;mismatch.xlsx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="570" y="1200" width="120" height="60" as="geometry" />
+          <mxGeometry x="570" y="1240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Bq81SZjszOhPOPJYjCuR-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="Bq81SZjszOhPOPJYjCuR-26" target="Bq81SZjszOhPOPJYjCuR-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Bq81SZjszOhPOPJYjCuR-26" value="code terminal會先印出mismatch的內容 (可以先預覽), 此應該要沒有任何資料(row show be zero)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="1090" width="120" height="60" as="geometry" />
+          <mxGeometry x="570" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bq81SZjszOhPOPJYjCuR-30" target="Bq81SZjszOhPOPJYjCuR-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-30" value="_merge為&#39;left_only&#39;的資料排除後, 再存入&lt;br&gt;df變數中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-32" value="&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;Prod_ID&lt;/span&gt;&lt;br&gt;Prod_Desc&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 0)&quot;&gt;Qty&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(213 , 232 , 212)&quot;&gt;商品編號&lt;/span&gt;&lt;br&gt;條碼&lt;br&gt;商品名稱&lt;br&gt;SAP#&lt;br&gt;Price&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 128 , 0)&quot;&gt;Cost&lt;/span&gt;&lt;br&gt;Margin&lt;span style=&quot;background-color: rgb(255 , 255 , 0)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="740" width="60" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-33" value="_merge為&#39;left_only&#39;的資料排除後, 再存入&lt;br&gt;df變數中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1020" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
