@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T03:25:14.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="_VOacs4eLEDg4HDm0vHl" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T03:27:04.447Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="_a-t0vk446KS-iMKjZC8" version="15.7.0" type="github">
   <diagram id="avC4_GUMAbgkmxRWUHAE" name="Page-1">
     <mxGraphModel dx="539" dy="277" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -69,8 +69,26 @@
         <mxCell id="Bq81SZjszOhPOPJYjCuR-18" value="mismatch drop_duplicate (by 商品編號) 再存回&lt;br&gt;mismatch內" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="880" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bq81SZjszOhPOPJYjCuR-20" target="Bq81SZjszOhPOPJYjCuR-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Bq81SZjszOhPOPJYjCuR-20" value="mismatch 篩選Prod_Desc有含&#39;3M&#39;的資料列 再存回&lt;br&gt;mismatch內" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="Bq81SZjszOhPOPJYjCuR-22" target="Bq81SZjszOhPOPJYjCuR-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bq81SZjszOhPOPJYjCuR-22" target="Bq81SZjszOhPOPJYjCuR-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-22" value="code terminal會先印出mismatch的內容 (可以先預覽), 此應該要沒有任何資料(row show be zero)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-24" value="存出&lt;br&gt;mismatch.xlsx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq81SZjszOhPOPJYjCuR-26" value="code terminal會先印出mismatch的內容 (可以先預覽), 此應該要沒有任何資料(row show be zero)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1300" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
