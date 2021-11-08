@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T06:32:06.074Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="2vpUxU5Mavy7N4XeoY-0" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T06:36:11.480Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="6WZ7CPzIfFdY_XOrS0oa" version="15.7.0" type="github">
   <diagram id="RNQB2M6-ii6qKgXe_sSj" name="Page-1">
-    <mxGraphModel dx="1303" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="539" dy="301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,8 +64,20 @@
         <mxCell id="v1tN3yAWTfvBBFqd2n0M-18" value="&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;df_return&lt;/span&gt;&lt;br&gt;更改欄位名稱" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-20" target="v1tN3yAWTfvBBFqd2n0M-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="v1tN3yAWTfvBBFqd2n0M-20" value="&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;df_return&lt;/span&gt; select desired columns and restore back to df" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v1tN3yAWTfvBBFqd2n0M-22" target="v1tN3yAWTfvBBFqd2n0M-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-22" value="df_return append to df後面, 存回df" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1tN3yAWTfvBBFqd2n0M-24" value="melt (ie. unpivot) df, 存回df" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1760" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
