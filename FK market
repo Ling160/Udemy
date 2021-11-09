@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T01:11:20.517Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="rZ4XTcD05ZGr06s3H8BA" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T01:37:58.962Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="JbSst5TocbVnvqhpXD0j" version="15.7.0" type="github">
   <diagram id="ZERmskrMrg5MCVIuEYjP" name="Page-1">
     <mxGraphModel dx="652" dy="335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -103,11 +103,35 @@
         <mxCell id="NiBa1T9Sd3-0FUEfMiYz-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-33" target="NiBa1T9Sd3-0FUEfMiYz-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-33" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-33" value="剔除Amt isna的資料列 restore back to df" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="1900" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-35" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-35" target="NiBa1T9Sd3-0FUEfMiYz-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-35" value="&lt;span&gt;剔除Prod_ID的資料列 restore back to df&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="2040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-37" target="NiBa1T9Sd3-0FUEfMiYz-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-37" value="利用file取出YYYYMM存入new variable latest" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-39" target="NiBa1T9Sd3-0FUEfMiYz-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;dashed=1;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-39" target="NiBa1T9Sd3-0FUEfMiYz-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-39" value="set YearMon欄位的值為latest後存入new dataframe called df_save" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-41" value="print latest與df_save的shape於termial" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-43" value="存出 Transaction csv檔案" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="520" y="2320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
