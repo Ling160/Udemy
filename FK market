@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T01:37:58.962Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="JbSst5TocbVnvqhpXD0j" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T01:44:18.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="qKHz-lRg3LF6QJ57N-7W" version="15.7.0" type="github">
   <diagram id="ZERmskrMrg5MCVIuEYjP" name="Page-1">
-    <mxGraphModel dx="652" dy="335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -132,6 +132,48 @@
         </mxCell>
         <mxCell id="NiBa1T9Sd3-0FUEfMiYz-43" value="存出 Transaction csv檔案" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="520" y="2320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="NiBa1T9Sd3-0FUEfMiYz-46" target="NiBa1T9Sd3-0FUEfMiYz-48" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-46" value="FK excel file from sales rep" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="NiBa1T9Sd3-0FUEfMiYz-48" target="NiBa1T9Sd3-0FUEfMiYz-58" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-48" value="POS Spliting Engine.py -&amp;gt; # FK Split" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="710" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="NiBa1T9Sd3-0FUEfMiYz-50" target="NiBa1T9Sd3-0FUEfMiYz-52" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-50" value="取出sheet名稱&lt;br&gt;存入temp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="NiBa1T9Sd3-0FUEfMiYz-52" target="NiBa1T9Sd3-0FUEfMiYz-54" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-52" value="有了sheet name,&lt;br&gt;讀出所有excel內容&lt;br&gt;存入df" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="NiBa1T9Sd3-0FUEfMiYz-54" target="NiBa1T9Sd3-0FUEfMiYz-55" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-54" value="df 取出&lt;br&gt;所有row&lt;br&gt;前8個column&lt;br&gt;再次存回df" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-55" value="rename columns" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-56" value="&lt;div&gt;&#39;Distributor&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;Store&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;Prod_ID_old&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Cate&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Amt&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Qty&#39;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1040" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="NiBa1T9Sd3-0FUEfMiYz-58" target="NiBa1T9Sd3-0FUEfMiYz-50" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-58" value="取出csv檔名&lt;br&gt;存入variable file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="460" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
