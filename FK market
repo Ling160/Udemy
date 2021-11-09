@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T01:52:35.702Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="y-0vjZuNsq1s8E67BbvD" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T01:54:13.036Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="wYmrO3FBMdwIjHXskGWt" version="15.7.0" type="github">
   <diagram id="ZERmskrMrg5MCVIuEYjP" name="Page-1">
     <mxGraphModel dx="782" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -207,7 +207,7 @@
         <mxCell id="NiBa1T9Sd3-0FUEfMiYz-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-65" target="NiBa1T9Sd3-0FUEfMiYz-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-65" value="Read latest matching table 存入mt_latest" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-65" value="append後存回&lt;br&gt;變數&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;mt&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="930" y="1460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NiBa1T9Sd3-0FUEfMiYz-68" value="&lt;font color=&quot;#000000&quot;&gt;append mt 於mt_latest之後&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
@@ -216,8 +216,14 @@
         <mxCell id="NiBa1T9Sd3-0FUEfMiYz-69" value="&lt;div&gt;(column with blank header)&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;br&gt;SAP#" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1080" y="1460" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-70" target="NiBa1T9Sd3-0FUEfMiYz-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NiBa1T9Sd3-0FUEfMiYz-70" value="change Prod_ID data type to FLOAT" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="930" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-72" value="mt drop_duplicate (by Prod_ID)再次存回mt中" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1740" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
