@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T01:44:40.111Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="mdA1P2njqLAVRtf2LzKZ" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T01:46:53.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="TcQDYqTSTZ8qAZfUFSOQ" version="15.7.0" type="github">
   <diagram id="ZERmskrMrg5MCVIuEYjP" name="Page-1">
     <mxGraphModel dx="782" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -163,6 +163,9 @@
         <mxCell id="NiBa1T9Sd3-0FUEfMiYz-54" value="df 取出&lt;br&gt;所有row&lt;br&gt;前8個column&lt;br&gt;再次存回df" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="710" y="900" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-55" target="NiBa1T9Sd3-0FUEfMiYz-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NiBa1T9Sd3-0FUEfMiYz-55" value="rename columns" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="710" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
@@ -174,6 +177,18 @@
         </mxCell>
         <mxCell id="NiBa1T9Sd3-0FUEfMiYz-58" value="取出csv檔名&lt;br&gt;存入variable file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-59" target="NiBa1T9Sd3-0FUEfMiYz-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-59" value="df drop_duplicates (by Prod_ID)後restore into new variable mt" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-61" value="select needed columns" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-63" value="&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&#39;Prod_Desc&#39;,&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1320" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
