@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T01:35:13.342Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="xx_B-fiBVwXOZIwQDVBJ" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T01:58:45.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="z8fgOT9I5v-zwX1dFg77" version="15.7.0" type="github">
   <diagram id="ZERmskrMrg5MCVIuEYjP" name="Page-1">
-    <mxGraphModel dx="652" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="920" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           <mxGeometry x="750" y="120" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NiBa1T9Sd3-0FUEfMiYz-4" value="stock" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="120" width="60" height="30" as="geometry" />
+          <mxGeometry x="1368" y="120" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NiBa1T9Sd3-0FUEfMiYz-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-5" target="NiBa1T9Sd3-0FUEfMiYz-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -322,6 +322,24 @@
         </mxCell>
         <mxCell id="9WK-N63SNlpHafTPrxxa-37" value="存出&lt;br&gt;matching table csv檔" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#56517e;fillColor=#d0cee2;" vertex="1" parent="1">
           <mxGeometry x="930" y="2740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-39" target="9WK-N63SNlpHafTPrxxa-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-39" value="FK excel file from sales rep" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1338" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-40" target="9WK-N63SNlpHafTPrxxa-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-40" value="select excel資料第3列開始吃資料" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1338" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-42" value="FK excel file from sales rep" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1338" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-44" value="&lt;font color=&quot;#ff0000&quot;&gt;excel第1列為header&lt;br&gt;第2列為不需要的&lt;br&gt;第3列才真的為資料&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#F8CECC;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="320" width="165" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
