@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T03:16:54.210Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="3YSOqnACYRQ5XpEaYMr-" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T03:18:54.602Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="hZZW7nZy7ifx3nXFQOdO" version="15.7.0" type="github">
   <diagram id="ZERmskrMrg5MCVIuEYjP" name="Page-1">
     <mxGraphModel dx="920" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -526,6 +526,9 @@
         <mxCell id="9WK-N63SNlpHafTPrxxa-104" value="Prod_ID change data type to string" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="2180" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-107" target="9WK-N63SNlpHafTPrxxa-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9WK-N63SNlpHafTPrxxa-107" value="Prod_ID change data type to string" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="2180" y="2210" width="120" height="60" as="geometry" />
         </mxCell>
@@ -534,6 +537,15 @@
         </mxCell>
         <mxCell id="9WK-N63SNlpHafTPrxxa-111" value="&lt;div&gt;(column with blank header)&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;br&gt;SAP#&lt;br&gt;&lt;div&gt;國際條碼&lt;br&gt;&lt;/div&gt;&lt;div&gt;料號&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2300" y="2230" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-112" target="9WK-N63SNlpHafTPrxxa-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-112" value="SAP#缺值的地方, 用料號來填入" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="2350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-114" value="取出SAP#仍然為空缺isna()的資料&lt;br&gt;存入ismatch" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="2490" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
