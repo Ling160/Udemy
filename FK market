@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T02:57:21.927Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="m-XMpTc0Au07u-okUSMC" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T02:58:38.986Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="vkDrMa0DayAje6FX382F" version="15.7.0" type="github">
   <diagram id="ZERmskrMrg5MCVIuEYjP" name="Page-1">
     <mxGraphModel dx="652" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -380,10 +380,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9WK-N63SNlpHafTPrxxa-57" value="Read matching table 存入mt_latest" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1732" y="1090" width="120" height="60" as="geometry" />
+          <mxGeometry x="1742" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9WK-N63SNlpHafTPrxxa-58" value="&lt;div&gt;(column with blank header)&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;br&gt;SAP#" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1862" y="1090" width="170" height="60" as="geometry" />
+          <mxGeometry x="1872" y="1090" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9WK-N63SNlpHafTPrxxa-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-59" target="9WK-N63SNlpHafTPrxxa-64">
           <mxGeometry relative="1" as="geometry" />
@@ -424,6 +424,9 @@
         <mxCell id="9WK-N63SNlpHafTPrxxa-73" value="append mismatch_df在mt_maintain之後" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1640" y="1660" width="130" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-74" target="9WK-N63SNlpHafTPrxxa-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9WK-N63SNlpHafTPrxxa-74" value="楓康對應資料.xlsx&lt;br&gt;全部讀取後存入&lt;br&gt;variable mt_maintain" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#0e8088;fillColor=#b0e3e6;" vertex="1" parent="1">
           <mxGeometry x="1742" y="1720" width="120" height="60" as="geometry" />
         </mxCell>
@@ -443,6 +446,9 @@
         </mxCell>
         <mxCell id="9WK-N63SNlpHafTPrxxa-79" value="&lt;font color=&quot;#000000&quot; style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;&amp;nbsp;&#39;國際條碼&#39;, &#39;商品名稱&#39;&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="1479.5" y="1560" width="70.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-81" value="drop_duplicate(by國際條碼), reset_index(drop=True)&lt;br&gt;存回mt_maintain" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#0e8088;fillColor=#b0e3e6;" vertex="1" parent="1">
+          <mxGeometry x="1742" y="1900" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
