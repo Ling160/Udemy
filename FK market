@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T01:59:59.074Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="VZL4kvrzLSvGvwe96U0V" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T02:08:13.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="cI2F65z9hOpAlqWS2tlZ" version="15.7.0" type="github">
   <diagram id="ZERmskrMrg5MCVIuEYjP" name="Page-1">
     <mxGraphModel dx="920" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -344,8 +344,20 @@
         <mxCell id="9WK-N63SNlpHafTPrxxa-44" value="&lt;font color=&quot;#ff0000&quot;&gt;excel第1列為header&lt;br&gt;第2列為不需要的&lt;br&gt;第3列才真的為資料&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#F8CECC;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1160" y="320" width="165" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9WK-N63SNlpHafTPrxxa-45" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="9WK-N63SNlpHafTPrxxa-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-45" target="9WK-N63SNlpHafTPrxxa-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-45" value="反樞紐&lt;br&gt;by in_var =&#39;商品貨號&#39;, &#39;國際條碼&#39;, &#39;商品名稱&#39;&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1338" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-49" target="9WK-N63SNlpHafTPrxxa-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-49" value="樞紐後把缺值 value = 0的資料刪除掉, 存回變數 df,&lt;br&gt;reset_index(drop=True)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1338" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-51" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1338" y="880" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
