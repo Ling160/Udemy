@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T01:27:30.716Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="DP-2RIPFjJE7lYx7uRWC" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T01:35:13.342Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="xx_B-fiBVwXOZIwQDVBJ" version="15.7.0" type="github">
   <diagram id="ZERmskrMrg5MCVIuEYjP" name="Page-1">
     <mxGraphModel dx="652" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -275,6 +275,9 @@
         <mxCell id="9WK-N63SNlpHafTPrxxa-13" value="change 國條data type to string" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#0e8088;fillColor=#b0e3e6;" vertex="1" parent="1">
           <mxGeometry x="1130" y="2020" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-15" target="9WK-N63SNlpHafTPrxxa-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9WK-N63SNlpHafTPrxxa-15" value="merge後存入mt" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="930" y="2180" width="120" height="60" as="geometry" />
         </mxCell>
@@ -283,6 +286,42 @@
         </mxCell>
         <mxCell id="9WK-N63SNlpHafTPrxxa-24" value="&lt;div&gt;(column with blank header)&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;br&gt;SAP#&lt;br&gt;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;國際條碼&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;料號&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="740" y="2180" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-25" target="9WK-N63SNlpHafTPrxxa-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-25" target="9WK-N63SNlpHafTPrxxa-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-25" value="mt中&lt;br&gt;找出 SAP# isna(),&lt;br&gt;利用把&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;料號&lt;/span&gt;, 貼到SAP#" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="930" y="2320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;dashed=1;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-27" target="9WK-N63SNlpHafTPrxxa-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-27" value="承上, 填補SAP#後,&lt;br&gt;再次找尋SAP#依舊是isna()的資料列,&lt;br&gt;存入 new variable mismatch" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="2320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-29" value="wlc優化, 存出missingProductInto xlsx檔" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#56517e;fillColor=#d0cee2;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="2460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-31" target="9WK-N63SNlpHafTPrxxa-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-31" value="select needed columns&lt;br&gt;and restore back into&lt;br&gt;mt" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="930" y="2460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-34" value="&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;br&gt;SAP#" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="2460" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;dashed=1;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-35" target="9WK-N63SNlpHafTPrxxa-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-35" value="SAP# change data type to FLOAT first, then changed it again to STRING" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="930" y="2600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-37" value="存出&lt;br&gt;matching table csv檔" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#56517e;fillColor=#d0cee2;" vertex="1" parent="1">
+          <mxGeometry x="930" y="2740" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
