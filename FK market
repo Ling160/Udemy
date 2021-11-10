@@ -1,190 +1,190 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T01:55:01.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="SHWvCIHrYY99o9AxgTXi" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T01:13:10.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="FSeuPrSyKIn9J6jKhT0e" version="15.7.0" type="github">
   <diagram id="ZERmskrMrg5MCVIuEYjP" name="Page-1">
-    <mxGraphModel dx="782" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-1" target="NiBa1T9Sd3-0FUEfMiYz-5">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-1" target="NiBa1T9Sd3-0FUEfMiYz-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-1" value="FK excel file from sales rep" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-1" value="FK excel file from sales rep" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-2" value="splitting" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-2" value="splitting" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="350" y="120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-3" value="matching" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-3" value="matching" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="750" y="120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-4" value="stock" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-4" value="stock" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1060" y="120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-5" target="NiBa1T9Sd3-0FUEfMiYz-20">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-5" target="NiBa1T9Sd3-0FUEfMiYz-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-5" value="POS Spliting Engine.py -&amp;gt; # FK Split" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-5" value="POS Spliting Engine.py -&amp;gt; # FK Split" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="320" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-7" target="NiBa1T9Sd3-0FUEfMiYz-9">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-7" target="NiBa1T9Sd3-0FUEfMiYz-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-7" value="取出sheet名稱&lt;br&gt;存入temp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-7" value="取出sheet名稱&lt;br&gt;存入temp" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-9" target="NiBa1T9Sd3-0FUEfMiYz-11">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-9" target="NiBa1T9Sd3-0FUEfMiYz-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-9" value="有了sheet name,&lt;br&gt;讀出所有excel內容&lt;br&gt;存入df" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-9" value="有了sheet name,&lt;br&gt;讀出所有excel內容&lt;br&gt;存入df" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="760" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-11" target="NiBa1T9Sd3-0FUEfMiYz-13">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-11" target="NiBa1T9Sd3-0FUEfMiYz-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-11" value="df 取出&lt;br&gt;所有row&lt;br&gt;前8個column&lt;br&gt;再次存回df" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-11" value="df 取出&lt;br&gt;所有row&lt;br&gt;前8個column&lt;br&gt;再次存回df" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="900" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-13" target="NiBa1T9Sd3-0FUEfMiYz-15">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-13" target="NiBa1T9Sd3-0FUEfMiYz-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-13" value="rename columns" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-13" value="rename columns" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-15" target="NiBa1T9Sd3-0FUEfMiYz-17">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-15" target="NiBa1T9Sd3-0FUEfMiYz-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-15" value="create new columns YearMon by slicing variable file" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-15" value="create new columns YearMon by slicing variable file" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-17" target="NiBa1T9Sd3-0FUEfMiYz-25">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-17" target="NiBa1T9Sd3-0FUEfMiYz-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-17" value="select needed columns" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-17" value="select needed columns" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-19" value="&lt;div&gt;&#39;Distributor&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;Store&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;Prod_ID_old&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Cate&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Amt&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Qty&#39;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-19" value="&lt;div&gt;&#39;Distributor&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;Store&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;Prod_ID_old&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Cate&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Amt&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Qty&#39;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="210" y="1040" width="100" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-20" target="NiBa1T9Sd3-0FUEfMiYz-7">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-20" target="NiBa1T9Sd3-0FUEfMiYz-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-20" value="取出csv檔名&lt;br&gt;存入variable file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-20" value="取出csv檔名&lt;br&gt;存入variable file" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-23" value="&lt;div&gt;&#39;Distributor&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;Store&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;Prod_ID_old&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Cate&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Amt&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Qty&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;YearMon&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-23" value="&lt;div&gt;&#39;Distributor&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;Store&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;Prod_ID_old&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Cate&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Amt&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Qty&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;YearMon&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="1180" width="100" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-24" value="&lt;div&gt;&lt;span&gt;&amp;nbsp;&#39;Store&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&lt;/span&gt;&lt;/div&gt;&amp;nbsp;&#39;Prod_Desc&#39;,&lt;div&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&#39;Amt&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Qty&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;YearMon&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-24" value="&lt;div&gt;&lt;span&gt;&amp;nbsp;&#39;Store&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&lt;/span&gt;&lt;/div&gt;&amp;nbsp;&#39;Prod_Desc&#39;,&lt;div&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&#39;Amt&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Qty&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;YearMon&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="210" y="1320" width="100" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-25" target="NiBa1T9Sd3-0FUEfMiYz-27">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-25" target="NiBa1T9Sd3-0FUEfMiYz-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-25" value="change Prod_ID data type to string" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-25" value="change Prod_ID data type to string" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="1480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-27" target="NiBa1T9Sd3-0FUEfMiYz-29">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-27" target="NiBa1T9Sd3-0FUEfMiYz-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-27" value="add 4 new columns:&lt;br&gt;Year, Month, Date, Channel" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-27" value="add 4 new columns:&lt;br&gt;Year, Month, Date, Channel" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="1620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-29" target="NiBa1T9Sd3-0FUEfMiYz-33">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-29" target="NiBa1T9Sd3-0FUEfMiYz-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-29" value="篩選store, 剔除掉空白的&lt;font color=&quot;#ff0000&quot;&gt;或???(strip)&lt;/font&gt;的資料列" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-29" value="篩選store, 剔除掉空白的&lt;font color=&quot;#ff0000&quot;&gt;或???(strip)&lt;/font&gt;的資料列" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="1760" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-31" value="&lt;div&gt;&lt;span&gt;&amp;nbsp;&#39;Store&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&lt;/span&gt;&lt;/div&gt;&amp;nbsp;&#39;Prod_Desc&#39;,&lt;div&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&#39;Amt&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Qty&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;YearMon&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Year&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Month&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Date&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Channel&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-31" value="&lt;div&gt;&lt;span&gt;&amp;nbsp;&#39;Store&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&lt;/span&gt;&lt;/div&gt;&amp;nbsp;&#39;Prod_Desc&#39;,&lt;div&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&#39;Amt&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Qty&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;YearMon&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Year&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Month&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Date&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Channel&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="1620" width="100" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-32" value="Date 用月初1號" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-32" value="Date 用月初1號" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="110" y="1730" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-33" target="NiBa1T9Sd3-0FUEfMiYz-35">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-33" target="NiBa1T9Sd3-0FUEfMiYz-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-33" value="剔除Amt isna的資料列 restore back to df" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-33" value="剔除Amt isna的資料列 restore back to df" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="1900" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-35" target="NiBa1T9Sd3-0FUEfMiYz-37">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-35" target="NiBa1T9Sd3-0FUEfMiYz-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-35" value="&lt;span&gt;剔除Prod_ID的資料列 restore back to df&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-35" value="&lt;span&gt;剔除Prod_ID的資料列 restore back to df&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="2040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-37" target="NiBa1T9Sd3-0FUEfMiYz-39">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-37" target="NiBa1T9Sd3-0FUEfMiYz-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-37" value="利用file取出YYYYMM存入new variable latest" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-37" value="利用file取出YYYYMM存入new variable latest" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="2180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-39" target="NiBa1T9Sd3-0FUEfMiYz-41">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-39" target="NiBa1T9Sd3-0FUEfMiYz-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;dashed=1;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-39" target="NiBa1T9Sd3-0FUEfMiYz-43">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;dashed=1;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-39" target="NiBa1T9Sd3-0FUEfMiYz-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-39" value="set YearMon欄位的值為latest後存入new dataframe called df_save" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-39" value="set YearMon欄位的值為latest後存入new dataframe called df_save" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="2320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-41" value="print latest與df_save的shape於termial" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-41" value="print latest與df_save的shape於termial" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="2460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-43" value="存出 Transaction csv檔案" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-43" value="存出 Transaction csv檔案" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="520" y="2320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="NiBa1T9Sd3-0FUEfMiYz-46" target="NiBa1T9Sd3-0FUEfMiYz-48" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-46" target="NiBa1T9Sd3-0FUEfMiYz-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-46" value="FK excel file from sales rep" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-46" value="FK excel file from sales rep" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="NiBa1T9Sd3-0FUEfMiYz-48" target="NiBa1T9Sd3-0FUEfMiYz-58" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-48" target="NiBa1T9Sd3-0FUEfMiYz-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-48" value="POS Matching Table Engine.py -&amp;gt; # FK Matching Table" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-48" value="POS Matching Table Engine.py -&amp;gt; # FK Matching Table" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="710" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="NiBa1T9Sd3-0FUEfMiYz-50" target="NiBa1T9Sd3-0FUEfMiYz-52" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-50" target="NiBa1T9Sd3-0FUEfMiYz-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-50" value="取出sheet名稱&lt;br&gt;存入temp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-50" value="取出sheet名稱&lt;br&gt;存入temp" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="NiBa1T9Sd3-0FUEfMiYz-52" target="NiBa1T9Sd3-0FUEfMiYz-54" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-52" target="NiBa1T9Sd3-0FUEfMiYz-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-52" value="有了sheet name,&lt;br&gt;讀出所有excel內容&lt;br&gt;存入df" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-52" value="有了sheet name,&lt;br&gt;讀出所有excel內容&lt;br&gt;存入df" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="710" y="760" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="NiBa1T9Sd3-0FUEfMiYz-54" target="NiBa1T9Sd3-0FUEfMiYz-55" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-54" target="NiBa1T9Sd3-0FUEfMiYz-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-54" value="df 取出&lt;br&gt;所有row&lt;br&gt;前8個column&lt;br&gt;再次存回df" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-54" value="df 取出&lt;br&gt;所有row&lt;br&gt;前8個column&lt;br&gt;再次存回df" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="710" y="900" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-55" target="NiBa1T9Sd3-0FUEfMiYz-59">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-55" target="NiBa1T9Sd3-0FUEfMiYz-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-55" value="rename columns" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-55" value="rename columns" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="710" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-56" value="&lt;div&gt;&#39;Distributor&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;Store&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;Prod_ID_old&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Cate&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Amt&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Qty&#39;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-56" value="&lt;div&gt;&#39;Distributor&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;Store&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;Prod_ID_old&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Cate&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Amt&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Qty&#39;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="600" y="1040" width="100" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="NiBa1T9Sd3-0FUEfMiYz-58" target="NiBa1T9Sd3-0FUEfMiYz-50" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-58" target="NiBa1T9Sd3-0FUEfMiYz-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-58" value="取出csv檔名&lt;br&gt;存入variable file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-58" value="取出csv檔名&lt;br&gt;存入variable file" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-59" target="NiBa1T9Sd3-0FUEfMiYz-61">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-59" target="NiBa1T9Sd3-0FUEfMiYz-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-59" value="df drop_duplicates (by Prod_ID)後restore into new variable mt" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-59" value="df drop_duplicates (by Prod_ID)後restore into new variable mt" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="710" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-61" target="NiBa1T9Sd3-0FUEfMiYz-65">
+        <mxCell id="9WK-N63SNlpHafTPrxxa-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-61" target="NiBa1T9Sd3-0FUEfMiYz-65">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="770" y="1440" />
@@ -192,46 +192,46 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-61" value="select needed columns" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-61" value="select needed columns &amp;amp; 刪除Prod_ID為 nan的資料列&lt;br&gt;存到new variable mt" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="710" y="1320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-63" value="&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&#39;Prod_Desc&#39;,&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-63" value="&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&#39;Prod_Desc&#39;,&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="600" y="1320" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-64" target="NiBa1T9Sd3-0FUEfMiYz-65">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-64" target="NiBa1T9Sd3-0FUEfMiYz-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-64" value="Read latest matching table 存入mt_latest" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-64" value="Read latest matching table 存入mt_latest" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="930" y="1320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-65" target="NiBa1T9Sd3-0FUEfMiYz-70">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-65" target="NiBa1T9Sd3-0FUEfMiYz-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-65" value="append後存回&lt;br&gt;變數&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;mt&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-65" value="append後存回&lt;br&gt;變數&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;mt&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="930" y="1460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-68" value="&lt;font color=&quot;#000000&quot;&gt;append mt 於mt_latest之後&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-68" value="&lt;font color=&quot;#000000&quot;&gt;append mt 於mt_latest之後&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="860" y="1410" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-69" value="&lt;div&gt;(column with blank header)&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;br&gt;SAP#" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-69" value="&lt;div&gt;(column with blank header)&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;br&gt;SAP#" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1080" y="1460" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-70" target="NiBa1T9Sd3-0FUEfMiYz-72">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-70" target="NiBa1T9Sd3-0FUEfMiYz-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-70" value="change Prod_ID data type to FLOAT" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-70" value="change Prod_ID data type to FLOAT" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="930" y="1600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-72" target="NiBa1T9Sd3-0FUEfMiYz-74">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-72" target="NiBa1T9Sd3-0FUEfMiYz-74" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-72" value="mt drop_duplicate (by Prod_ID)再次存回mt中" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-72" value="mt drop_duplicate (by Prod_ID)再次存回mt中" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="930" y="1740" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-74" value="change Prod_ID data type to STRING" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-74" value="change Prod_ID data type to STRING" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="930" y="1880" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-76" value="&lt;div&gt;(column with blank header)&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;br&gt;SAP#" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-76" value="&lt;div&gt;(column with blank header)&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;br&gt;SAP#" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1090" y="1880" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
