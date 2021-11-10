@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T01:22:04.074Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="C-Dul3OfPJcUuzq3_aQk" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T01:27:30.716Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="DP-2RIPFjJE7lYx7uRWC" version="15.7.0" type="github">
   <diagram id="ZERmskrMrg5MCVIuEYjP" name="Page-1">
-    <mxGraphModel dx="920" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -228,11 +228,14 @@
         <mxCell id="NiBa1T9Sd3-0FUEfMiYz-72" value="mt drop_duplicate (by Prod_ID)再次存回mt中" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="930" y="1740" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-74" target="9WK-N63SNlpHafTPrxxa-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NiBa1T9Sd3-0FUEfMiYz-74" value="change Prod_ID data type to STRING" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="930" y="1880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NiBa1T9Sd3-0FUEfMiYz-76" value="&lt;div&gt;(column with blank header)&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;br&gt;SAP#" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="1880" width="170" height="60" as="geometry" />
+          <mxGeometry x="760" y="1880" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9WK-N63SNlpHafTPrxxa-4" value="&lt;div&gt;(column with blank header)&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;br&gt;SAP#" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1060" y="1320" width="170" height="60" as="geometry" />
@@ -240,17 +243,46 @@
         <mxCell id="9WK-N63SNlpHafTPrxxa-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-6" target="9WK-N63SNlpHafTPrxxa-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9WK-N63SNlpHafTPrxxa-6" value="楓康對應資料.xlsx" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#0e8088;fillColor=#b0e3e6;" vertex="1" parent="1">
-          <mxGeometry x="760" y="1740" width="120" height="60" as="geometry" />
+        <mxCell id="9WK-N63SNlpHafTPrxxa-6" value="楓康對應資料.xlsx&lt;br&gt;全部讀取後存入&lt;br&gt;variable mt_maintain" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#0e8088;fillColor=#b0e3e6;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-7" target="9WK-N63SNlpHafTPrxxa-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9WK-N63SNlpHafTPrxxa-7" value="select needed columns" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#0e8088;fillColor=#b0e3e6;" vertex="1" parent="1">
-          <mxGeometry x="760" y="1880" width="120" height="60" as="geometry" />
+          <mxGeometry x="1130" y="1740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9WK-N63SNlpHafTPrxxa-9" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;MULTIPILE&lt;/font&gt; (column with blank header)&lt;/div&gt;&lt;div&gt;品類&lt;/div&gt;&lt;div&gt;貨號&lt;/div&gt;&lt;div&gt;料號&lt;/div&gt;&lt;div&gt;國際條碼&lt;/div&gt;&lt;div&gt;商品名稱&lt;/div&gt;&lt;div&gt;箱入數&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1730" width="255" height="120" as="geometry" />
+          <mxGeometry x="1230" y="1590" width="255" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="9WK-N63SNlpHafTPrxxa-10" value="國際條碼&lt;br&gt;&lt;span&gt;料號&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="682.5" y="1880" width="67.5" height="50" as="geometry" />
+        <mxCell id="9WK-N63SNlpHafTPrxxa-10" value="&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;國際條碼&lt;br&gt;&lt;/span&gt;&lt;span&gt;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;料號&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1730" width="67.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-11" target="9WK-N63SNlpHafTPrxxa-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-11" value="change 國條data type to string" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#0e8088;fillColor=#b0e3e6;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-13" target="9WK-N63SNlpHafTPrxxa-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1190" y="2140" />
+              <mxPoint x="990" y="2140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-13" value="change 國條data type to string" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#0e8088;fillColor=#b0e3e6;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="2020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-15" value="merge後存入mt" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="930" y="2180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-23" value="merge, how = &#39;left&#39;&lt;br&gt;left_on = &#39;&#39;Pord_ID&#39;&lt;br&gt;right_on = &#39;國際條碼&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="970" y="2110" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-24" value="&lt;div&gt;(column with blank header)&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;br&gt;SAP#&lt;br&gt;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;國際條碼&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;料號&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="2180" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
