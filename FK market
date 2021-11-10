@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T02:55:00.830Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="ajjBveLS2v-xKMwVoWQb" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T02:57:05.940Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="nsDrJVt8fShULuwx7lvE" version="15.7.0" type="github">
   <diagram id="ZERmskrMrg5MCVIuEYjP" name="Page-1">
     <mxGraphModel dx="652" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -400,13 +400,8 @@
         <mxCell id="9WK-N63SNlpHafTPrxxa-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-64" target="9WK-N63SNlpHafTPrxxa-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9WK-N63SNlpHafTPrxxa-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-64" target="9WK-N63SNlpHafTPrxxa-74">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1620" y="1690" />
-              <mxPoint x="1802" y="1690" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-64" target="9WK-N63SNlpHafTPrxxa-77">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9WK-N63SNlpHafTPrxxa-64" value="SAP# isna的資料取出來後, drop_duplicates(by國際條碼)&lt;br&gt;存到new variable mismatch_df" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1560" y="1420" width="120" height="60" as="geometry" />
@@ -431,6 +426,15 @@
         </mxCell>
         <mxCell id="9WK-N63SNlpHafTPrxxa-74" value="楓康對應資料.xlsx&lt;br&gt;全部讀取後存入&lt;br&gt;variable mt_maintain" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#0e8088;fillColor=#b0e3e6;" vertex="1" parent="1">
           <mxGeometry x="1742" y="1720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-76" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;MULTIPILE&lt;/font&gt; (column with blank header)&lt;/div&gt;&lt;div&gt;品類&lt;/div&gt;&lt;div&gt;貨號&lt;/div&gt;&lt;div&gt;料號&lt;/div&gt;&lt;div&gt;國際條碼&lt;/div&gt;&lt;div&gt;商品名稱&lt;/div&gt;&lt;div&gt;箱入數&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;&#39;國際條碼&#39;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;&#39;商品名稱&#39;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1862" y="1720" width="255" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-77" value="mismatch_df&lt;br&gt;select needed 2 columns, restore back int omismatch_df" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-79" value="&lt;font color=&quot;#000000&quot; style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;&amp;nbsp;&#39;國際條碼&#39;, &#39;商品名稱&#39;&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1479.5" y="1560" width="70.5" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
