@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T02:12:20.096Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="eBZYyciqMNgfF6dH6y4s" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T02:38:04.223Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="ltS2GWT5yGKlxcQ1-wP3" version="15.7.0" type="github">
   <diagram id="ZERmskrMrg5MCVIuEYjP" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -201,7 +201,7 @@
         <mxCell id="NiBa1T9Sd3-0FUEfMiYz-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-64" target="NiBa1T9Sd3-0FUEfMiYz-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-64" value="Read latest matching table 存入mt_latest" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="NiBa1T9Sd3-0FUEfMiYz-64" value="Read matching table 存入mt_latest" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="930" y="1320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NiBa1T9Sd3-0FUEfMiYz-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="NiBa1T9Sd3-0FUEfMiYz-65" target="NiBa1T9Sd3-0FUEfMiYz-70" edge="1">
@@ -356,6 +356,9 @@
         <mxCell id="9WK-N63SNlpHafTPrxxa-49" value="樞紐後把缺值 value = 0的資料刪除掉, 存回變數 df,&lt;br&gt;reset_index(drop=True)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1338" y="950" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-51" target="9WK-N63SNlpHafTPrxxa-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9WK-N63SNlpHafTPrxxa-51" value="把variable為空白字元的replace掉成沒字元" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1338" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
@@ -364,6 +367,32 @@
         </mxCell>
         <mxCell id="9WK-N63SNlpHafTPrxxa-53" value="splitting engine &amp;gt;&lt;br&gt;楓康FK Stock Split" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="1338" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-56" value="&lt;font color=&quot;#000000&quot;&gt;&#39;商品貨號&#39;, &#39;國際條碼&#39;, &#39;商品名稱&#39;&amp;nbsp;&lt;br&gt;&lt;/font&gt;variable&lt;br&gt;value" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1257.5" y="810" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="9WK-N63SNlpHafTPrxxa-57" target="9WK-N63SNlpHafTPrxxa-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1570" y="1200" />
+              <mxPoint x="1398" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-57" value="Read matching table 存入mt_latest" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-58" value="&lt;div&gt;(column with blank header)&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#39;Prod_ID&#39;,&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&#39;Prod_Desc&#39;,&amp;nbsp;&lt;br&gt;SAP#" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1090" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-59" value="把variable為空白字元的replace掉成沒字元" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1338" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-62" value="mrege, how=&#39;left&#39;&lt;br&gt;left_on =&#39;國際條碼&#39;&lt;br&gt;right_on=&#39;Prod_ID&#39;&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="1170" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9WK-N63SNlpHafTPrxxa-63" value="&lt;font color=&quot;#000000&quot;&gt;&#39;商品貨號&#39;, &#39;國際條碼&#39;, &#39;商品名稱&#39;&amp;nbsp;&lt;br&gt;&lt;/font&gt;variable&lt;br&gt;value" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1257.5" y="1090" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
