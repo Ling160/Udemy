@@ -1,1 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2021-11-24T02:38:10.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" version="15.8.2" etag="KPbN9hfSr6XChGA-y1Cm" type="github"><diagram id="WeLVRZsKanDs_KoI1K7Q">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-24T02:51:01.412Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="odsSVc-ks8XuVYHifpqw" version="15.8.2" type="github">
+  <diagram id="WeLVRZsKanDs_KoI1K7Q" name="Page-1">
+    <mxGraphModel dx="1632" dy="1536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="le5miorJuV7pzhcq4Eum-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="le5miorJuV7pzhcq4Eum-3" target="le5miorJuV7pzhcq4Eum-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="le5miorJuV7pzhcq4Eum-3" value="Persona&lt;br&gt;momo (&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;feat的資料&lt;/span&gt;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="le5miorJuV7pzhcq4Eum-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="le5miorJuV7pzhcq4Eum-5" target="le5miorJuV7pzhcq4Eum-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="le5miorJuV7pzhcq4Eum-5" value="&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;extra 資料&lt;/span&gt;&lt;br&gt;(每個月momo 10號會給資料)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="190" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="le5miorJuV7pzhcq4Eum-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="le5miorJuV7pzhcq4Eum-7" target="le5miorJuV7pzhcq4Eum-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="le5miorJuV7pzhcq4Eum-7" value="結合91app POS資料產出&lt;br&gt;&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;真正的:&lt;br&gt;product與&lt;br&gt;behavior&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="330" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="le5miorJuV7pzhcq4Eum-8" value="AIPL&lt;br&gt;(ming只更新到2021四月,&lt;br&gt;ninon告知有需要繼續更新)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="470" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="le5miorJuV7pzhcq4Eum-9" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=3;rounded=0;fontColor=#000000;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-190" y="290" as="sourcePoint" />
+            <mxPoint x="290" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="le5miorJuV7pzhcq4Eum-10" value="Step 2:&lt;br&gt;Persona StandardizationI.py" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#ffffff;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="390" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="le5miorJuV7pzhcq4Eum-11" value="Step 1:&lt;br&gt;91 API.py" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#ffffff;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="110" width="170" height="90" as="geometry" />
+        </mxCell>
+        <UserObject label="影片連結" link="https://skydrive3m-my.sharepoint.com/personal/acadzzz_mmm_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Facadzzz%5Fmmm%5Fcom%2FDocuments%2F%40Recordings%2Fmomo%20persona%20%E6%A6%82%E5%BF%B5%2EMOV&amp;parent=%2Fpersonal%2Facadzzz%5Fmmm%5Fcom%2FDocuments%2F%40Recordings" id="le5miorJuV7pzhcq4Eum-12">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;fontColor=#ffffff;fillColor=#647687;strokeColor=#314354;" vertex="1" parent="1">
+            <mxGeometry x="305" y="-10" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="le5miorJuV7pzhcq4Eum-13" value="年齡&lt;br&gt;地區&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 153)&quot;&gt;客編&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="le5miorJuV7pzhcq4Eum-14" value="extra含各種會員資料:&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 153)&quot;&gt;客編&lt;/span&gt;&lt;br&gt;有無車&lt;br&gt;有無小孩&lt;br&gt;etc" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="197.5" width="160" height="45" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
