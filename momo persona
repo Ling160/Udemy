@@ -1,11 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-11-24T02:51:01.412Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="odsSVc-ks8XuVYHifpqw" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-24T02:51:33.494Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="ZCMYyLrcl4VqLL-6V9e1" version="15.8.2" type="github">
   <diagram id="WeLVRZsKanDs_KoI1K7Q" name="Page-1">
     <mxGraphModel dx="1632" dy="1536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="le5miorJuV7pzhcq4Eum-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="le5miorJuV7pzhcq4Eum-3" target="le5miorJuV7pzhcq4Eum-5">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="150" />
+              <mxPoint x="130" y="150" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="le5miorJuV7pzhcq4Eum-3" value="Persona&lt;br&gt;momo (&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;feat的資料&lt;/span&gt;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="50" width="160" height="60" as="geometry" />
@@ -47,6 +52,9 @@
         </mxCell>
         <mxCell id="le5miorJuV7pzhcq4Eum-14" value="extra含各種會員資料:&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 153)&quot;&gt;客編&lt;/span&gt;&lt;br&gt;有無車&lt;br&gt;有無小孩&lt;br&gt;etc" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="197.5" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="le5miorJuV7pzhcq4Eum-15" value="客編mapping" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="140" y="140" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
