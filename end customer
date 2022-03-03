@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T14:27:03.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="BtvCTr4prb3Wb4fI1NUA" version="16.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-03T14:27:21.455Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="nzEEPY3zoZ-GhxFxDc4n" version="16.6.5" type="github">
   <diagram id="Lqv7nvqObt6ZbKmqx0ZU" name="Page-1">
     <mxGraphModel dx="1986" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -32,10 +32,10 @@
           <mxGeometry x="-230" y="243.75" width="485" height="27.5" as="geometry" />
         </mxCell>
         <mxCell id="-oKxEY7OtYzlzm69sWr5-15" value="Python整理羅離" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="330" y="500" width="120" height="40" as="geometry" />
+          <mxGeometry x="540" y="560" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-oKxEY7OtYzlzm69sWr5-16" value="&lt;br&gt;&lt;br&gt;Goal: 利用相同的key來填補 --&amp;gt;客戶名稱, 分級lex. A/B/C/連鎖, 分店數&amp;nbsp;&lt;br&gt;key = &lt;font color=&quot;#00cc00&quot;&gt;[經銷商客戶代碼]&lt;/font&gt; + [channel]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="190" y="550" width="440" as="geometry" />
+          <mxGeometry x="400" y="610" width="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
