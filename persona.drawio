@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T05:44:00.205Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="qDU1u2wWvEsLQWeJoJXx" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T06:24:07.990Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="c91wEHFyFH-qUWGTkJP0" version="17.2.4" type="github">
   <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
-    <mxGraphModel dx="3686" dy="1736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4306" dy="2084" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -295,7 +295,14 @@
         <mxCell id="hvA4PafVI6DXR14lHh_R-100" value="df.to_csv(r&#39;C:\Users\acadzzz\Desktop\CBG POS\1 Standalone POS\8004 Ecom\Persona\Persona\MOMO\MOMO_persona.csv&#39;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-2100" y="3140" width="660" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hvA4PafVI6DXR14lHh_R-103" value="Source: 3m_aipl_customerdt &lt;br&gt;每月約10號來自MOMO IT&lt;br&gt;存入dataframe為&lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;new&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hvA4PafVI6DXR14lHh_R-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#FF3333;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-103" target="hvA4PafVI6DXR14lHh_R-115">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-245" y="4640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-103" value="Source: 3m_aipl_customerdt &lt;br&gt;每月約10號來自MOMO IT&lt;br&gt;存入dataframe為&lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;new&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-365" y="4210" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-104" value="&lt;font style=&quot;font-size: 52px&quot;&gt;取出momo feat資料來製作persona&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -306,6 +313,9 @@
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-108" value="&lt;div style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;new_path = r&#39;C:\Users\acadzzz\Desktop\Momo project test\20211001&#39;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;new = pd.DataFrame()&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;file = list(filter(re.compile(&#39;csv&#39;).findall, os.listdir(new_path)))&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;for i in file:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; temp = pd.read_csv(os.path.join(new_path, i), header=0)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; new = new.append(temp).reset_index(drop=True)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=52;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-115" y="4170" width="400" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=default;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-109" target="hvA4PafVI6DXR14lHh_R-115">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-109" value="讀取 persona.csv" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-1480" y="4210" width="240" height="100" as="geometry" />
@@ -318,6 +328,12 @@
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-114" value="&lt;div&gt;所含欄位如下:&lt;/div&gt;&lt;div&gt;Customer_ID&lt;/div&gt;&lt;div&gt;Birth&lt;/div&gt;&lt;div&gt;Gender&lt;/div&gt;&lt;div&gt;City&lt;/div&gt;&lt;div&gt;Kids&lt;/div&gt;&lt;div&gt;Car&lt;/div&gt;&lt;div&gt;Pregnancy&lt;/div&gt;&lt;div&gt;Category&lt;/div&gt;&lt;div&gt;Channel&lt;/div&gt;&lt;div&gt;Sub_Cate_bought_count&lt;/div&gt;&lt;div&gt;Frequency&lt;/div&gt;&lt;div&gt;Register_Date&lt;/div&gt;&lt;div&gt;Source&lt;/div&gt;&lt;div&gt;Education&lt;/div&gt;&lt;div&gt;Career&lt;/div&gt;&lt;div&gt;Marriage&lt;/div&gt;&lt;div&gt;Income&lt;/div&gt;&lt;div&gt;Sub-Cate&lt;/div&gt;&lt;div&gt;Sub-Appendix&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-1660" y="4280" width="160" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-115" value="merge" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1480" y="4590" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-117" value="&lt;div&gt;df = &lt;font color=&quot;#ff3333&quot;&gt;old&lt;/font&gt;.merge(&lt;font color=&quot;#ff3333&quot;&gt;new&lt;/font&gt;, how=&#39;left&#39;, left_on=&#39;Customer_ID&#39;, right_on=&#39;CUST_NO&#39;)&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1930" y="4625" width="440" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
