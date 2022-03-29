@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T04:16:01.845Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="YwyJxjioCXyPO8DNDRUf" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T04:18:19.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="Wj_ph5UKcAHBaBD_iMOh" version="17.2.4" type="github">
   <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
     <mxGraphModel dx="3686" dy="1736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -54,6 +54,14 @@
             <Array as="points">
               <mxPoint x="1120" y="820" />
               <mxPoint x="1120" y="2820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF3333;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-3" target="hvA4PafVI6DXR14lHh_R-82">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="820" />
+              <mxPoint x="1120" y="3000" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -257,6 +265,33 @@
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-81" value="&lt;div&gt;df = df.merge(Fre, how=&#39;left&#39;, left_on=&#39;Customer_ID&#39;, right_on=&#39;客編&#39;)&lt;/div&gt;&lt;div&gt;df = df.drop(columns=[&#39;客編&#39;])&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1940" y="2785" width="510" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF3333;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-82" target="hvA4PafVI6DXR14lHh_R-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1180" y="3000" />
+              <mxPoint x="-1180" y="2830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-82" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;change data type&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Customer_ID&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="2950" width="235" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-86" value="&lt;div&gt;df[&#39;Customer_ID&#39;] = df[&#39;Customer_ID&#39;].astype(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; float).map(&#39;{:.0f}&#39;.format).astype(str)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="358" y="2950" width="420" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="563" y="2860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="563" y="2930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-87" value="重複code啦" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFF66;labelBorderColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="508" y="2880" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
