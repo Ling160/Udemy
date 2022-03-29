@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T05:31:02.564Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="NnNJ9n_fnt4i77AwS8Zy" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T05:31:13.264Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="hk0rv3VbckpjHVUuGQX0" version="17.2.4" type="github">
   <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
     <mxGraphModel dx="3686" dy="1736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -295,7 +295,7 @@
         <mxCell id="hvA4PafVI6DXR14lHh_R-100" value="df.to_csv(r&#39;C:\Users\acadzzz\Desktop\CBG POS\1 Standalone POS\8004 Ecom\Persona\Persona\MOMO\MOMO_persona.csv&#39;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-2100" y="3140" width="660" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hvA4PafVI6DXR14lHh_R-103" value="Source: 3m_aipl_customerdt &lt;br&gt;每月約10號來自MOMO IT&lt;br&gt;存入為&lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;new&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hvA4PafVI6DXR14lHh_R-103" value="Source: 3m_aipl_customerdt &lt;br&gt;每月約10號來自MOMO IT&lt;br&gt;存入dataframe為&lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;new&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-365" y="4210" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-104" value="&lt;font style=&quot;font-size: 52px&quot;&gt;取出momo feat資料來製作persona&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
