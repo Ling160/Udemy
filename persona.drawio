@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T07:28:10.905Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="wZYu1GBdzPXPAPbvuLea" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T07:41:16.202Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="4K67WOT6rdubjumBA67i" version="17.2.4" type="github">
   <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
     <mxGraphModel dx="3341" dy="1576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -402,7 +402,7 @@
         <mxCell id="hvA4PafVI6DXR14lHh_R-141" value="# Need to combine click &amp;amp; purchase &amp;amp; addtocart data -- Need to remove POS from other vendors" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="-230" y="6320" width="520" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hvA4PafVI6DXR14lHh_R-142" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;mt_path = r&#39;C:\Users\acadzzz\Desktop\CBG POS\0 Big POS\1 CBG Big POS\Matching Table\MOMO\MOMO Matching Table.csv&#39;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;mt = pd.read_csv(mt_path)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;mt = mt[[&#39;Prod_ID&#39;, &#39;SAP#&#39;]]&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="hvA4PafVI6DXR14lHh_R-142" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;mt_path = r&#39;C:\Users\acadzzz\Desktop\CBG POS\0 Big POS\1 CBG Big POS\Matching Table\MOMO\MOMO Matching Table.csv&#39;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;mt = pd.read_csv(mt_path)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;mt = mt[[&#39;Prod_ID&#39;, &#39;&lt;span style=&quot;background-color: rgb(153 , 255 , 204)&quot;&gt;SAP#&lt;/span&gt;&#39;]]&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="715" y="6370" width="510" height="90" as="geometry" />
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-146" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-143" target="hvA4PafVI6DXR14lHh_R-145">
@@ -441,7 +441,7 @@
         <mxCell id="hvA4PafVI6DXR14lHh_R-152" value="rename欄位&lt;br&gt;重新存入變數 &lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;df&lt;/span&gt; 中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-94" y="6850" width="240" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="hvA4PafVI6DXR14lHh_R-154" value="&lt;font color=&quot;#000000&quot;&gt;所含欄位如下:&lt;br&gt;Date&lt;br&gt;Customer_ID&lt;br&gt;Prod_ID&lt;br&gt;Prod_Desc&lt;br&gt;Qty&lt;br&gt;Amt&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="hvA4PafVI6DXR14lHh_R-154" value="&lt;font color=&quot;#000000&quot;&gt;所含欄位如下:&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 230)&quot;&gt;Date&lt;br&gt;Customer_ID&lt;br&gt;Prod_ID&lt;br&gt;Prod_Desc&lt;br&gt;Qty&lt;br&gt;Amt&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="-230" y="6860" width="105" height="110" as="geometry" />
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-161" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#FF3333;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-155" target="hvA4PafVI6DXR14lHh_R-160">
@@ -468,11 +468,32 @@
         <mxCell id="hvA4PafVI6DXR14lHh_R-162" value="change data type" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-94" y="7340" width="240" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-164" target="hvA4PafVI6DXR14lHh_R-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-164" value="剔除amt與qty皆為0的資料" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-94" y="7490" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-166" value="df = df[~ ((df[&#39;Qty&#39;] == 0) &amp;amp; (df[&#39;Amt&#39;] == 0))]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-370" y="7490" width="245" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-171" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-167" target="hvA4PafVI6DXR14lHh_R-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-167" value="剔除不需要的欄位" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-94" y="7640" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-169" value="df = df.drop(columns=[&#39;Qty&#39;, &#39;Amt&#39;, &#39;SAP#&#39;])" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="7640" width="245" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-170" value="groupby" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-94" y="7790" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-172" value="&lt;div&gt;df = df.&lt;font color=&quot;#ff3333&quot;&gt;groupby([&#39;Date&#39;, &#39;Prod_ID&#39;, &#39;Prod_Desc&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;Customer_ID&#39;], sort=False).size()&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="7795" width="265" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-173" value="&lt;font color=&quot;#000000&quot;&gt;所含欄位如下:&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 230)&quot;&gt;Date&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 230)&quot;&gt;Customer_ID&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 230)&quot;&gt;Prod_ID&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 230)&quot;&gt;Prod_Desc&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 230)&quot;&gt;Qty&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 230)&quot;&gt;Amt&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(153 , 255 , 204)&quot;&gt;SAP#&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="7010" width="105" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
