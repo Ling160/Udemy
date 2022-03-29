@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T04:00:31.834Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="M8fiainWe2U5KJIEZBm_" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T04:01:15.250Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="JsZCoXLqPywaZfG71-iC" version="17.2.4" type="github">
   <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
-    <mxGraphModel dx="3323" dy="1533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4482" dy="2182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -243,11 +243,17 @@
         <mxCell id="hvA4PafVI6DXR14lHh_R-73" value="&lt;div&gt;&lt;span&gt;Fre = Fre.&lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;groupby(Fre[&#39;客編&#39;]).size()&lt;/font&gt;&lt;span&gt;.reset_index(&lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;name=&#39;Frequency&#39;&lt;/font&gt;&lt;span&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1910" y="2475" width="380" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-74" target="hvA4PafVI6DXR14lHh_R-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-74" value="&lt;div&gt;# Remove outlier&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1510" y="2620" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-78" value="&lt;div&gt;&lt;span&gt;std_Fre = &lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;np.std&lt;/font&gt;&lt;span&gt;(Fre[&#39;Frequency&#39;])&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;mean_Fre = Fre[&#39;Frequency&#39;]&lt;font color=&quot;#ff3333&quot;&gt;.mean()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;upper = mean_Fre + &lt;font color=&quot;#ff3333&quot;&gt;3*&lt;/font&gt;std_Fre&lt;/div&gt;&lt;div&gt;lower = mean_Fre - &lt;font color=&quot;#ff3333&quot;&gt;3*&lt;/font&gt;mean_Fre&lt;/div&gt;&lt;div&gt;Fre[&#39;Frequency&#39;][Fre[&#39;Frequency&#39;] &amp;gt; upper] = 0&lt;/div&gt;&lt;div&gt;Fre[&#39;Frequency&#39;][Fre[&#39;Frequency&#39;] &amp;lt; lower] = 0&lt;/div&gt;&lt;div&gt;Fre = Fre[Fre[&#39;Frequency&#39;]&lt;font color=&quot;#ff3333&quot;&gt; != 0&lt;/font&gt;]&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1790" y="2555" width="290" height="215" as="geometry" />
+          <mxGeometry x="-1790" y="2590" width="290" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-79" value="&lt;div&gt;# Mapping into the persona table&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1510" y="2780" width="240" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
