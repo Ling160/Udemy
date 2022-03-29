@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T03:54:35.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="0wYq_b0RQ-5U9YOAWN8-" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T03:56:01.291Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="xo25FrUKdZWbbaJZkBAJ" version="17.2.4" type="github">
   <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
-    <mxGraphModel dx="3686" dy="1736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3516" dy="1641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -216,11 +216,20 @@
         <mxCell id="hvA4PafVI6DXR14lHh_R-64" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;background-color: rgb(169 , 196 , 235)&quot;&gt;Fre = All[All[&#39;Days_Gap&#39;] &amp;lt;= 365]&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-480" y="760" width="260" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-65" target="hvA4PafVI6DXR14lHh_R-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-65" value="&lt;div&gt;change data type&lt;/div&gt;&lt;div&gt;客編&lt;/div&gt;&lt;div&gt;訂單編號&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1510" y="1070" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-67" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div&gt;Fre[&#39;客編&#39;] = Fre[&#39;客編&#39;].astype(float).map(&#39;{:.0f}&#39;.format).astype(str)&lt;/div&gt;&lt;div&gt;Fre[&#39;訂單編號&#39;] = Fre[&#39;訂單編號&#39;].astype(float).map(&#39;{:.0f}&#39;.format).astype(str)&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1950" y="1055" width="420" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-68" value="groupby&lt;br&gt;計算每個groupby size&lt;br&gt;rest_index (name = &#39;count&#39;)&lt;br&gt;ps.&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt; &lt;/font&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(255 , 51 , 51)&quot;&gt;此name = &#39;count&#39; 是給剛剛size那欄位的header欄位名稱, 而非indexing 欄位的欄位名稱&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1510" y="1220" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-70" value="&lt;div&gt;&lt;span&gt;Fre = Fre&lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;.groupby([&#39;客編&#39;, &#39;訂單編號&#39;]).size().&lt;/font&gt;&lt;span&gt;reset_index(&lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;name=&#39;count&#39;&lt;/font&gt;&lt;span&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1860" y="1220" width="330" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
