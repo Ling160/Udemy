@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T01:56:41.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="cyL8jcNIld8qNCvdnNLM" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T02:06:42.022Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="FhWGXC5KFLol02Kpk-Ji" version="17.2.4" type="github">
   <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
     <mxGraphModel dx="1655" dy="1551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -73,13 +73,13 @@
         <mxCell id="hvA4PafVI6DXR14lHh_R-12" value="(1) 新增欄位 today&lt;br&gt;(2) 新增欄位 Date_dateformt from formating原本&#39;訂單日期&#39;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-150" y="320" width="240" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="hvA4PafVI6DXR14lHh_R-14" value="&lt;div style=&quot;text-align: left&quot;&gt;today = date.today()&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;All[&#39;today&#39;] = today&lt;/div&gt;&lt;span&gt;All[&#39;Date_dateformat&#39;] = pd.to_datetime(All[&#39;訂單日期&#39;], format=&#39;%Y-%m-%d&#39;)&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="hvA4PafVI6DXR14lHh_R-14" value="&lt;div style=&quot;text-align: left&quot;&gt;today = date.today()&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;All[&#39;today&#39;] = today&lt;/div&gt;All[&#39;Date_dateformat&#39;] = pd.to_datetime(All[&#39;訂單日期&#39;], format=&lt;font color=&quot;#ff3333&quot;&gt;&#39;%Y-%m-%d&#39;&lt;/font&gt;)&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-590" y="320" width="420" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="hvA4PafVI6DXR14lHh_R-15" value="(1) 新增欄位 days_gap by today 減 date_dateformat&lt;br&gt;ps. 相減前先轉換data type as 64[ns]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hvA4PafVI6DXR14lHh_R-15" value="(1) 新增欄位 days_gap by today 減 date_dateformat&lt;br&gt;ps. 相減前先轉換data type as 64[ns]&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 51 , 51)&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;ps. 相減結果(有含days): 1192 days&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-150" y="470" width="240" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="hvA4PafVI6DXR14lHh_R-17" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;All[&#39;Days_Gap&#39;] = All[&#39;today&#39;].astype(&#39;datetime64[ns]&#39;) - All[&#39;Date_dateformat&#39;]&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="hvA4PafVI6DXR14lHh_R-17" value="&lt;div style=&quot;text-align: left&quot;&gt;All[&#39;Days_Gap&#39;] = All[&#39;today&#39;].&lt;font color=&quot;#ff3333&quot;&gt;astype(&#39;datetime64[ns]&#39;)&lt;/font&gt; - All[&#39;Date_dateformat&#39;]&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-590" y="470" width="420" height="90" as="geometry" />
         </mxCell>
       </root>
