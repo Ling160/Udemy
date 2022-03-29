@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T04:25:51.506Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="zBD3LnIlg3dYqCpWVlCq" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T05:06:32.497Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="bmwycHUHMG17pK_rf9JB" version="17.2.4" type="github">
   <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
-    <mxGraphModel dx="3686" dy="1736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4965" dy="2453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -284,6 +284,15 @@
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-100" value="df.to_csv(r&#39;C:\Users\acadzzz\Desktop\CBG POS\1 Standalone POS\8004 Ecom\Persona\Persona\MOMO\MOMO_persona.csv&#39;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-2100" y="3140" width="660" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-103" value="Source: MOMO Feat取出4欄位&lt;br&gt;append 資料夾內所有feat檔為&lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;df&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5000" y="-20" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-104" value="&lt;font style=&quot;font-size: 52px&quot;&gt;取出momo feat資料來製作persona&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1540" y="-630" width="3830" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-105" value="&lt;font style=&quot;font-size: 52px&quot;&gt;MOMO Persona update from MOMO extra data(MOMO_AWS外部資料)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="3280" y="-630" width="3830" height="460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
