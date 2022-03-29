@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T06:43:28.318Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="_M9ixyPOnqAAT3afAGE2" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T06:45:21.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="43Y-Lvr5jPE8Dq-7SHNs" version="17.2.4" type="github">
   <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
     <mxGraphModel dx="3516" dy="1641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -368,6 +368,9 @@
         <mxCell id="hvA4PafVI6DXR14lHh_R-131" value="&lt;div&gt;df[&#39;Birth&#39;] = df[&#39;Birth&#39;].astype(float).map(&#39;{:.0f}&#39;.format).astype(str)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-1860" y="5150" width="390" height="45" as="geometry" />
         </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#FF3333;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-132" target="hvA4PafVI6DXR14lHh_R-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-132" value="&lt;span style=&quot;background-color: rgb(255 , 206 , 159)&quot;&gt;新增欄位&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1480" y="5290" width="240" height="100" as="geometry" />
         </mxCell>
@@ -376,6 +379,12 @@
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-135" value="&lt;div&gt;所含欄位如下:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 230)&quot;&gt;Customer_ID&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 230)&quot;&gt;Birth&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 230)&quot;&gt;Gender&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 230)&quot;&gt;City&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(153 , 255 , 204)&quot;&gt;Kids&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(153 , 255 , 204)&quot;&gt;Car&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(153 , 255 , 204)&quot;&gt;Pregnancy&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(153 , 255 , 204)&quot;&gt;Category&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 230)&quot;&gt;Channel&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 230)&quot;&gt;Sub_Cate_bought_count&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 230)&quot;&gt;Frequency&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 206 , 159)&quot;&gt;Register_Date&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 206 , 159)&quot;&gt;Source&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 206 , 159)&quot;&gt;Education&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 206 , 159)&quot;&gt;Career&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 206 , 159)&quot;&gt;Marriage&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 206 , 159)&quot;&gt;Income&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 206 , 159)&quot;&gt;Sub-Cate&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 206 , 159)&quot;&gt;Sub-Appendix&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-1625" y="5280" width="135" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-136" value="存入 persona.csv" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-1480" y="5620" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-138" value="&lt;span&gt;df.to_csv(old_path)&lt;br&gt;&lt;/span&gt;&#39;C:\Users\acadzzz\Desktop\CBG POS\1 Standalone POS\8004 Ecom\Persona\Persona\MOMO\MOMO_persona.csv&#39;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2150" y="5640" width="660" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
