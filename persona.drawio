@@ -1,1 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T06:22:45.571Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="LQEDcWLETK9DeBSFPT_b" version="17.2.4" type="github"><diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">7Vnfc6M2EP5rNHYemuG34dFgknbazN3U7XSmLzeKETY9gagQSZy//lZCGBPhXDqX1J1cX2LxabWLdlffaglyk/LhmuN6d8MyQpFjZQ/IXSHHCb0I/kpg3wGe7XTAlhdZB9kDsC4eiQYtjbZFRpqRoGCMiqIegxtWVWQjRhjmnN2PxXJGx1ZrvCUGsN5gaqJ/FJnY6W351oD/SIrtrrdsW3qmxL2wBpodztj9EeSmyE04Y6IblQ8JodJ3vV+6dVcnZg8vxkklXrKAFqn1c7Vp083NtRX99me7L5IfFp2WO0xbvWH9smLfe4Bk4BD9yLjYsS2rME0HNOasrTIizVjwNMj8wlgNoA3gX0SIvY4ubgUDaCdKqmc7m9LQyb1pqGEt35BnNtTnCOZbIp6R8w4RgMwlrCSC72EdJxSL4m78Hljn0PYgN7gZBtrT/8DrtuH1td7XEuCbDzcf4OeKYIFSH4VXKArUYIHipYfSAC0TFMLAQ/EKhbA8oLDV+JbDaCtHuK5JlYEOlIYoduVKWAVaokgqAiVxqjTCWE2FEQotJQOao1xZBjNLFIGZBQodsJzlRmoMgZdRvN8VgqxrrOJzD2wwFeQ7wgV5eD7MZlj6BaE+S5pM+qN1P5xMx9PY7vhU9ofy1SPpmOdHOjhFS0c6Ll6gZWjGR8rEEYrBuZGM4dKekglkTGR8IFAhWvoTMhrJirtRYIK/W6bnh9FoRVPj6vhtIO6xpSytpFUtBS4ZCQ6wstijT7IC4ivGoW8EZ59JwijjgFSskqyRF5Q+gTAtthU8UpJLDTJXCqDipYbLIssU4Uxl2piEXiHZPG+cbL6ZbNFEroVvlWqukWqJ5As/+b0hvIFfvMHZ4+MjjFak+SyAe/0kia9hzccPaxjDdq21wFWGqXR3D4eWBWRopRtWwpMiHz/5lWB6kPgI+oHPv5dAT7CKa09E2n2rSIfvrSh7LyzKwTmLsjdB5VAQY0XTgayEcTRVfSV7WmqgyD62jWCdu0zai7PXSd8kr7YRoJx/+mniAhMXkK8mfA23GsJNPCnE/nthp0Nwz1WH+gbu/dBT8EJ6sk9E6t/hp8Bwe8ZZ/SlrawrZKci8aW8beH8oX3LWQot4dnTIZmixuvjPUZN7/iu8bXZjnNRUOmGS7HXTpG75cImXLdtTPprbF6r5Wqiq0Qn7shHrlseBUhjLjswJcCndrK/SXce2kg0ZDMJYlpOudYMezrTjSDsdWXadIrRsfRcnFUirV9pq6A5th/S6YVjXONV4hLKmDeJSwLIte16W8vKfXXylFxlDptBXOohzZ6V3/oJpm9f9CQ9DT+7Hs64szpC/Ohz+pxOXOqXnEu4V5aySdLHR1e+4W3Tz3LLk5owGsk9q0AI7s2aH5D4GjCTvo96Z7FR1LyzXfOtL3WBKevNXpDx6qlT3esr6xQvz8b1cJXx/nOYTVwnP9c00f7NOx564dJ/KckVzE0l+wC8xhKwm85wyLC4uS1zPDyxX3Tb1ic8fUBhjYPFLK4cKObvMGS/lcq0MAq24XFHgNyWp5M+Tufj/BxczPX17Ij2d12nE4XH48q7mjv594aZfAA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-29T01:33:15.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="qur2paPJUdYVFaWJwF5X" version="17.2.4" type="github">
+  <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
+    <mxGraphModel dx="1816" dy="1641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="liE0KncuEcMG09TZuyiC-1" value="Source: MOMO Feat取出4欄位&lt;br&gt;append 資料夾內所有feat檔為df" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="170" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="liE0KncuEcMG09TZuyiC-2" value="客編&lt;br&gt;年齡&lt;br&gt;性別&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;地區&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="-20" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="liE0KncuEcMG09TZuyiC-3" value="C:\Users\acadzzz\Desktop\CBG POS\1 Standalone POS\8004 Ecom\MOMO\Real POS\Persona" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="-50" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="liE0KncuEcMG09TZuyiC-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="liE0KncuEcMG09TZuyiC-4" target="liE0KncuEcMG09TZuyiC-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="liE0KncuEcMG09TZuyiC-4" value="更改4欄位名稱" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="170" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="liE0KncuEcMG09TZuyiC-5" value="Customer_ID&lt;br&gt;Birth&lt;br&gt;Gender&lt;br&gt;City" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="180" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="liE0KncuEcMG09TZuyiC-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="liE0KncuEcMG09TZuyiC-6" target="liE0KncuEcMG09TZuyiC-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="liE0KncuEcMG09TZuyiC-6" value="drop_duplicate(subset = {&#39;Customer_ID&#39;})" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="320" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="liE0KncuEcMG09TZuyiC-11" target="hvA4PafVI6DXR14lHh_R-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="liE0KncuEcMG09TZuyiC-11" value="replace欄位內容:&lt;br&gt;(1) 男女其他&amp;gt; 轉英文&lt;br&gt;(2) Birth只有西元年 &amp;gt; 改成年+ 0101(mm/dd)&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="470" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="liE0KncuEcMG09TZuyiC-13" value="&lt;div&gt;df[&#39;Gender&#39;] = df[&#39;Gender&#39;].replace([&#39;&lt;font color=&quot;#ff0000&quot;&gt;男&#39;, &#39;女&#39;, &#39;其他&lt;/font&gt;&#39;], [&#39;&lt;font color=&quot;#ff0000&quot;&gt;Male&#39;, &#39;Female&#39;, &#39;nan&lt;/font&gt;&#39;])&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="455" y="480" width="435" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="liE0KncuEcMG09TZuyiC-14" value="&lt;div&gt;df[&#39;Birth&#39;] = df[&#39;Birth&#39;].astype(float).map(&amp;nbsp;&lt;span&gt;&#39;{:.0f}&#39;.format).astype(str) + &#39;&lt;font color=&quot;#ff0000&quot;&gt;0101&lt;/font&gt;&#39;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="455" y="510" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-1" target="hvA4PafVI6DXR14lHh_R-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-1" value="(1) Birth為空白or nan 則填入空白值&lt;br&gt;(2) 新增欄位channel = momo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="620" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-3" value="df.reset_index&lt;br&gt;因為之前有&lt;br&gt;drop_duplicate(subset = {&#39;Customer_ID&#39;})" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="770" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-5" target="liE0KncuEcMG09TZuyiC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-5" target="liE0KncuEcMG09TZuyiC-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="100" />
+              <mxPoint x="-70" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-5" value="Source: MOMO Feat取出4欄位&lt;br&gt;append 資料夾內所有feat檔為df" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-50" width="240" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
