@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T07:09:40.261Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="YP6cSiQalYGmPxaT9QNj" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T07:12:32.371Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="lCUXvvigw9Wp5cJeQJXE" version="17.2.4" type="github">
   <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
     <mxGraphModel dx="3341" dy="1576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -390,13 +390,28 @@
           <mxGeometry x="-1615" y="5790" width="3830" height="460" as="geometry" />
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-140" value="讀出matching table並&lt;br&gt;指選取2個columns後&lt;br&gt;存入變數 mt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="6360" width="240" height="100" as="geometry" />
+          <mxGeometry x="455" y="6370" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-141" value="# Need to combine click &amp;amp; purchase &amp;amp; addtocart data -- Need to remove POS from other vendors" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="-230" y="6320" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-142" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;mt_path = r&#39;C:\Users\acadzzz\Desktop\CBG POS\0 Big POS\1 CBG Big POS\Matching Table\MOMO\MOMO Matching Table.csv&#39;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;mt = pd.read_csv(mt_path)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;mt = mt[[&#39;Prod_ID&#39;, &#39;SAP#&#39;]]&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="140" y="6360" width="510" height="90" as="geometry" />
+          <mxGeometry x="715" y="6370" width="510" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-146" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-143" target="hvA4PafVI6DXR14lHh_R-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-143" value="&lt;div&gt;# Purchase data --&lt;/div&gt;&lt;div&gt;讀取feat檔案&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-94" y="6370" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-144" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;path = r&#39;C:\Users\acadzzz\Desktop\CBG POS\1 Standalone POS\8004 Ecom\MOMO\Real POS\Persona&#39;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;files = list(filter(re.compile(&#39;&lt;/font&gt;Feat&lt;font color=&quot;#000000&quot;&gt;&#39;).findall, os.listdir(path)))&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="6375" width="610" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-145" value="&lt;div&gt;把最新的15個feat檔案append在一起後&lt;/div&gt;&lt;div&gt;存入變數df&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-94" y="6530" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-147" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;df = pd.DataFrame()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;for file in files[&lt;/font&gt;-15:&lt;font color=&quot;#000000&quot;&gt;]:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp; print(file)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp; temp = pd.ExcelFile(os.path.join(path, file)).parse()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp; df = df.append(temp).reset_index(drop=True)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="6530" width="320" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
