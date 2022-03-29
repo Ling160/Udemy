@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T03:00:37.757Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="EvLGx7r04uvBcootYIuW" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T03:01:10.592Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="Nuf23Y8M3IwjnV9NBKhX" version="17.2.4" type="github">
   <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
     <mxGraphModel dx="2836" dy="1736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -186,7 +186,7 @@
         <mxCell id="hvA4PafVI6DXR14lHh_R-50" value="&lt;div&gt;std_Trans_cate = &lt;font color=&quot;#ff3333&quot;&gt;np.std&lt;/font&gt;(Trans_cate[&#39;Sub_Cate_bought_count&#39;])&lt;/div&gt;&lt;div&gt;mean_Trans_cate = Trans_cate[&#39;Sub_Cate_bought_count&#39;]&lt;font color=&quot;#ff3333&quot;&gt;.mean()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;upper = mean_Trans_cate + (&lt;font color=&quot;#ff3333&quot;&gt;3*&lt;/font&gt;std_Trans_cate)&lt;/div&gt;&lt;div&gt;lower = mean_Trans_cate - (&lt;font color=&quot;#ff3333&quot;&gt;3*&lt;/font&gt;std_Trans_cate)&lt;/div&gt;&lt;div&gt;Trans_cate[&#39;Sub_Cate_bought_count&#39;][Trans_cate[&#39;Sub_Cate_bought_count&#39;]&lt;font color=&quot;#ff3333&quot;&gt; &amp;gt; upper] = 0&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Trans_cate[&#39;Sub_Cate_bought_count&#39;][Trans_cate[&#39;Sub_Cate_bought_count&#39;] &lt;font color=&quot;#ff3333&quot;&gt;&amp;lt; lower] = 0&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Trans_cate = Trans_cate[Trans_cate[&#39;Sub_Cate_bought_count&#39;] &lt;font color=&quot;#ff3333&quot;&gt;!= 0&lt;/font&gt;]&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-680" y="2620" width="510" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="hvA4PafVI6DXR14lHh_R-53" value="&lt;div&gt;# Remove outlier&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hvA4PafVI6DXR14lHh_R-53" value="&lt;div&gt;&lt;div&gt;# Mapping into the persona table&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-150" y="2770" width="240" height="100" as="geometry" />
         </mxCell>
       </root>
