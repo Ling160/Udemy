@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T05:31:13.264Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="hk0rv3VbckpjHVUuGQX0" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T05:44:00.205Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="qDU1u2wWvEsLQWeJoJXx" version="17.2.4" type="github">
   <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
     <mxGraphModel dx="3686" dy="1736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -315,6 +315,9 @@
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-113" value="&lt;div&gt;所含欄位如下:&lt;/div&gt;&lt;div&gt;CUST_NO&lt;/div&gt;&lt;div&gt;A180&lt;/div&gt;&lt;div&gt;I180&lt;/div&gt;&lt;div&gt;P180&lt;/div&gt;&lt;div&gt;L180&lt;/div&gt;&lt;div&gt;AVG_AMT_PER_MONTH&lt;/div&gt;&lt;div&gt;AVG_AMT_PER_ORDER&lt;/div&gt;&lt;div&gt;ORDER_COUNT&lt;/div&gt;&lt;div&gt;HAS_CHILD&lt;/div&gt;&lt;div&gt;HAS_CAR&lt;/div&gt;&lt;div&gt;CONSTELLATION&lt;/div&gt;&lt;div&gt;IS_PREGANANT&lt;/div&gt;&lt;div&gt;AGE&lt;/div&gt;&lt;div&gt;BIRTHDAY&lt;/div&gt;&lt;div&gt;GENDER&lt;/div&gt;&lt;div&gt;AREA&lt;/div&gt;&lt;div&gt;A_ITEMS&lt;/div&gt;&lt;div&gt;I_ITEMS&lt;/div&gt;&lt;div&gt;top_category&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-110" y="4290" width="160" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-114" value="&lt;div&gt;所含欄位如下:&lt;/div&gt;&lt;div&gt;Customer_ID&lt;/div&gt;&lt;div&gt;Birth&lt;/div&gt;&lt;div&gt;Gender&lt;/div&gt;&lt;div&gt;City&lt;/div&gt;&lt;div&gt;Kids&lt;/div&gt;&lt;div&gt;Car&lt;/div&gt;&lt;div&gt;Pregnancy&lt;/div&gt;&lt;div&gt;Category&lt;/div&gt;&lt;div&gt;Channel&lt;/div&gt;&lt;div&gt;Sub_Cate_bought_count&lt;/div&gt;&lt;div&gt;Frequency&lt;/div&gt;&lt;div&gt;Register_Date&lt;/div&gt;&lt;div&gt;Source&lt;/div&gt;&lt;div&gt;Education&lt;/div&gt;&lt;div&gt;Career&lt;/div&gt;&lt;div&gt;Marriage&lt;/div&gt;&lt;div&gt;Income&lt;/div&gt;&lt;div&gt;Sub-Cate&lt;/div&gt;&lt;div&gt;Sub-Appendix&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1660" y="4280" width="160" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
