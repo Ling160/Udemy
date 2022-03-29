@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T02:08:16.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="tAlP88Oqpv91dzWOr0Or" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T02:14:21.818Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="ApUPAWp7MMwMwChb6wAY" version="17.2.4" type="github">
   <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
-    <mxGraphModel dx="1655" dy="1551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2620" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,11 +85,38 @@
         <mxCell id="hvA4PafVI6DXR14lHh_R-17" value="&lt;div style=&quot;text-align: left&quot;&gt;All[&#39;Days_Gap&#39;] = All[&#39;today&#39;].&lt;font color=&quot;#ff3333&quot;&gt;astype(&#39;datetime64[ns]&#39;)&lt;/font&gt; - All[&#39;Date_dateformat&#39;]&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-590" y="470" width="420" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-18" target="hvA4PafVI6DXR14lHh_R-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-18" value="(1) 把剛剛的結果去掉days, 只留相差的天數數字部分&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 51 , 51)&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;ps. 結果(去除days): 1192&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-150" y="620" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-20" value="&lt;div style=&quot;text-align: left&quot;&gt;All[&#39;Days_Gap&#39;] = All[&#39;Days_Gap&#39;].&lt;font color=&quot;#ff3333&quot;&gt;dt.days&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-590" y="625" width="420" height="90" as="geometry" />
+          <mxGeometry x="-420" y="625" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-21" target="hvA4PafVI6DXR14lHh_R-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-21" value="運算取出days_gap &amp;lt;=365內的dataframe後&lt;br&gt;存入新變數&lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;Trans_cate&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="770" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-23" value="&lt;div style=&quot;text-align: left&quot;&gt;Trans_cate = All[All[&#39;Days_Gap&#39;] &amp;lt;= 365]&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="775" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-24" value="merge" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="920" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-25" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div&gt;path = r&#39;C:\Users\acadzzz\Desktop\CBG POS\0 Big POS\1 CBG Big POS\Matching Table\MOMO\MOMO Matching Table.csv&#39;&lt;/div&gt;&lt;div&gt;mt = pd.read_csv(path)&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1270" y="940" width="420" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-26" target="hvA4PafVI6DXR14lHh_R-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-26" value="#import mt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="920" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-27" value="&lt;div style=&quot;text-align: left&quot;&gt;Trans_cate = Trans_cate.merge(mt, how=&#39;left&#39;, left_on=&#39;品號&#39;, right_on=&#39;Prod_ID&#39;)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="910" width="330" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
