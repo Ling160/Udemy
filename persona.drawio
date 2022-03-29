@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T07:15:35.012Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="lq5-kfnQqQfv1RyY01_1" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T07:17:20.573Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="YfoJOaSBIJKMoLuRi8Ig" version="17.2.4" type="github">
   <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
-    <mxGraphModel dx="3341" dy="1576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2998" dy="1370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -389,7 +389,14 @@
         <mxCell id="hvA4PafVI6DXR14lHh_R-139" value="&lt;font&gt;&lt;span style=&quot;font-size: 52px&quot;&gt;MOMO Split -- From persona data #Product&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 52px&quot;&gt;此步驟是拿取feat, cart, flow的資料(其實每天daily momo 的那隻程式也有跑此部分)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-1615" y="5790" width="3830" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="hvA4PafVI6DXR14lHh_R-140" value="讀出matching table並&lt;br&gt;指選取2個columns後&lt;br&gt;存入變數 mt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hvA4PafVI6DXR14lHh_R-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#FF3333;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-140" target="hvA4PafVI6DXR14lHh_R-155">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="7060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-140" value="讀出matching table並&lt;br&gt;指選取2個columns後&lt;br&gt;存入變數 mt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="455" y="6370" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-141" value="# Need to combine click &amp;amp; purchase &amp;amp; addtocart data -- Need to remove POS from other vendors" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
@@ -428,11 +435,23 @@
         <mxCell id="hvA4PafVI6DXR14lHh_R-151" value="&lt;font color=&quot;#000000&quot;&gt;所含欄位如下:&lt;br&gt;訂單日期&lt;br&gt;客編&lt;br&gt;品號&lt;br&gt;品名&lt;br&gt;購買數量&lt;br&gt;購買金額&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="-230" y="6730" width="105" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-156" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#FF3333;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-152" target="hvA4PafVI6DXR14lHh_R-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-152" value="rename欄位&lt;br&gt;重新存入變數 &lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;df&lt;/span&gt; 中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-94" y="6850" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-154" value="&lt;font color=&quot;#000000&quot;&gt;所含欄位如下:&lt;br&gt;Date&lt;br&gt;Customer_ID&lt;br&gt;Prod_ID&lt;br&gt;Prod_Desc&lt;br&gt;Qty&lt;br&gt;Amt&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="6850" width="105" height="110" as="geometry" />
+          <mxGeometry x="-230" y="6860" width="105" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-155" value="merge後&lt;br&gt;重新存入變數 &lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;df&lt;/span&gt; 中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-94" y="7010" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-157" value="&lt;font color=&quot;#000000&quot;&gt;所含欄位如下:&lt;br&gt;Date&lt;br&gt;Customer_ID&lt;br&gt;Prod_ID&lt;br&gt;Prod_Desc&lt;br&gt;Qty&lt;br&gt;Amt&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="7010" width="105" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-159" value="df = &lt;font color=&quot;#ff3333&quot;&gt;df&lt;/font&gt;.merge(&lt;font color=&quot;#ff3333&quot;&gt;mt&lt;/font&gt;, how=&#39;left&#39;, &lt;font color=&quot;#ff3333&quot;&gt;left_on=&#39;Prod_ID&#39;, right_on=&#39;Prod_ID&#39;&lt;/font&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="146" y="7040" width="410" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
