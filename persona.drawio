@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T03:52:02.883Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="cU4JQrdY4Eix-_crs151" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T03:54:35.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="0wYq_b0RQ-5U9YOAWN8-" version="17.2.4" type="github">
   <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
-    <mxGraphModel dx="2836" dy="1736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3686" dy="1736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -218,6 +218,9 @@
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-65" value="&lt;div&gt;change data type&lt;/div&gt;&lt;div&gt;客編&lt;/div&gt;&lt;div&gt;訂單編號&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1510" y="1070" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-67" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div&gt;Fre[&#39;客編&#39;] = Fre[&#39;客編&#39;].astype(float).map(&#39;{:.0f}&#39;.format).astype(str)&lt;/div&gt;&lt;div&gt;Fre[&#39;訂單編號&#39;] = Fre[&#39;訂單編號&#39;].astype(float).map(&#39;{:.0f}&#39;.format).astype(str)&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1950" y="1055" width="420" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
