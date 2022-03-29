@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T07:41:16.202Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="4K67WOT6rdubjumBA67i" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T07:42:20.400Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="R-zgeMxH4LHGq5qirtmo" version="17.2.4" type="github">
   <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
-    <mxGraphModel dx="3341" dy="1576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3390" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -494,6 +494,9 @@
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-173" value="&lt;font color=&quot;#000000&quot;&gt;所含欄位如下:&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 230)&quot;&gt;Date&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 230)&quot;&gt;Customer_ID&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 230)&quot;&gt;Prod_ID&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 230)&quot;&gt;Prod_Desc&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 230)&quot;&gt;Qty&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 230)&quot;&gt;Amt&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(153 , 255 , 204)&quot;&gt;SAP#&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="-230" y="7010" width="105" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-174" value="&lt;font color=&quot;#ff3333&quot;&gt;df = df[~(df[&#39;SAP#&#39;].isna())]&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="7175" width="165" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
