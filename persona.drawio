@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T03:50:29.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="vmT3a5hWLDuina_Jl9Yj" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T03:52:02.883Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="cU4JQrdY4Eix-_crs151" version="17.2.4" type="github">
   <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
     <mxGraphModel dx="2836" dy="1736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -207,11 +207,17 @@
         <mxCell id="hvA4PafVI6DXR14lHh_R-58" value="&lt;div&gt;df = df.merge(Trans_cate, how=&#39;left&#39;, left_on=&#39;Customer_ID&#39;, right_on=&#39;客編&#39;)&lt;/div&gt;&lt;div&gt;df = df.drop(columns=[&#39;客編&#39;])&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-680" y="2780" width="510" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-61" target="hvA4PafVI6DXR14lHh_R-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-61" value="&lt;div&gt;運算取出days_gap &amp;lt;=365內的dataframe後&lt;/div&gt;&lt;div&gt;存入新變數&lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;Fre&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-1510" y="919.9999999999999" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-64" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;background-color: rgb(169 , 196 , 235)&quot;&gt;Fre = All[All[&#39;Days_Gap&#39;] &amp;lt;= 365]&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-480" y="760" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-65" value="&lt;div&gt;change data type&lt;/div&gt;&lt;div&gt;客編&lt;/div&gt;&lt;div&gt;訂單編號&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1510" y="1070" width="240" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
