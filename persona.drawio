@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T07:18:11.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="ZA1QEscz1XvwKNUZhKxi" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T07:27:34.446Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="mhzCILmdJBH1iKRlWQwd" version="17.2.4" type="github">
   <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
-    <mxGraphModel dx="3190" dy="1486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3341" dy="1576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -450,14 +450,20 @@
         <mxCell id="hvA4PafVI6DXR14lHh_R-155" value="merge後&lt;br&gt;重新存入變數 &lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;df&lt;/span&gt; 中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-94" y="7010" width="240" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="hvA4PafVI6DXR14lHh_R-157" value="df = df[~(df[&#39;SAP#&#39;].isna())]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="-270" y="7170" width="150" height="110" as="geometry" />
+        <mxCell id="hvA4PafVI6DXR14lHh_R-157" value="&lt;div&gt;df[&#39;Date&#39;] = pd.to_datetime(df[&#39;Date&#39;])&lt;/div&gt;&lt;div&gt;df[&#39;Date&#39;] = df[&#39;Date&#39;].dt.strftime(&#39;%Y%m%d&#39;)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="7340" width="245" height="90" as="geometry" />
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-159" value="df = &lt;font color=&quot;#ff3333&quot;&gt;df&lt;/font&gt;.merge(&lt;font color=&quot;#ff3333&quot;&gt;mt&lt;/font&gt;, how=&#39;left&#39;, &lt;font color=&quot;#ff3333&quot;&gt;left_on=&#39;Prod_ID&#39;, right_on=&#39;Prod_ID&#39;&lt;/font&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="146" y="7040" width="410" height="10" as="geometry" />
         </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#FF3333;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-160" target="hvA4PafVI6DXR14lHh_R-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-160" value="# Remove other vendors&#39; data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-94" y="7170" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-162" value="change data type" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-94" y="7340" width="240" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
