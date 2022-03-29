@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T06:53:39.825Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="gMQ6zozzgZyCYMCLBHmW" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T07:09:40.261Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="YP6cSiQalYGmPxaT9QNj" version="17.2.4" type="github">
   <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
     <mxGraphModel dx="3341" dy="1576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -389,8 +389,14 @@
         <mxCell id="hvA4PafVI6DXR14lHh_R-139" value="&lt;font&gt;&lt;span style=&quot;font-size: 52px&quot;&gt;MOMO Split -- From persona data #Product&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 52px&quot;&gt;此步驟是拿取feat, cart, flow的資料(其實每天daily momo 的那隻程式也有跑此部分)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-1615" y="5790" width="3830" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="hvA4PafVI6DXR14lHh_R-140" value="&lt;span style=&quot;background-color: rgb(255 , 206 , 159)&quot;&gt;新增欄位&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hvA4PafVI6DXR14lHh_R-140" value="讀出matching table並&lt;br&gt;指選取2個columns後&lt;br&gt;存入變數 mt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-120" y="6360" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-141" value="# Need to combine click &amp;amp; purchase &amp;amp; addtocart data -- Need to remove POS from other vendors" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="6320" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-142" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;mt_path = r&#39;C:\Users\acadzzz\Desktop\CBG POS\0 Big POS\1 CBG Big POS\Matching Table\MOMO\MOMO Matching Table.csv&#39;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;mt = pd.read_csv(mt_path)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;mt = mt[[&#39;Prod_ID&#39;, &#39;SAP#&#39;]]&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="140" y="6360" width="510" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
