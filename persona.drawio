@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T06:45:21.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="43Y-Lvr5jPE8Dq-7SHNs" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T06:53:03.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="diCb5RVnnuTKERf-JeMi" version="17.2.4" type="github">
   <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
-    <mxGraphModel dx="3516" dy="1641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5238" dy="2720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -384,7 +384,10 @@
           <mxGeometry x="-1480" y="5620" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-138" value="&lt;span&gt;df.to_csv(old_path)&lt;br&gt;&lt;/span&gt;&#39;C:\Users\acadzzz\Desktop\CBG POS\1 Standalone POS\8004 Ecom\Persona\Persona\MOMO\MOMO_persona.csv&#39;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-2150" y="5640" width="660" height="40" as="geometry" />
+          <mxGeometry x="-2140" y="5650" width="660" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-139" value="&lt;font&gt;&lt;span style=&quot;font-size: 52px&quot;&gt;MOMO Split -- From persona data #Product&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 52px&quot;&gt;此步驟是拿取feat, cart, flow的資料(其實每天daily momo 的那隻程式也有跑此部分)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1615" y="5790" width="3830" height="460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
