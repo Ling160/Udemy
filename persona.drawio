@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T02:29:40.718Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="mXqTB43_4_fqzjLKiF0q" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T02:32:54.345Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="u6PoCWbJvI_DueiBwvcV" version="17.2.4" type="github">
   <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
     <mxGraphModel dx="2620" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -103,6 +103,9 @@
         <mxCell id="hvA4PafVI6DXR14lHh_R-23" value="&lt;div style=&quot;text-align: left&quot;&gt;Trans_cate = All[All[&#39;Days_Gap&#39;] &amp;lt;= 365]&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-430" y="775" width="260" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-24" target="hvA4PafVI6DXR14lHh_R-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-24" value="(1) merge&lt;br&gt;(2) change SAP# data type" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-150" y="920" width="240" height="100" as="geometry" />
         </mxCell>
@@ -118,14 +121,20 @@
         <mxCell id="hvA4PafVI6DXR14lHh_R-27" value="&lt;div style=&quot;text-align: left&quot;&gt;(1) Trans_cate = Trans_cate.merge(mt, how=&#39;left&#39;, left_on=&#39;品號&#39;, right_on=&#39;Prod_ID&#39;)&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;div&gt;(2) Trans_cate[&#39;SAP#&#39;] = Trans_cate[&#39;SAP#&#39;].astype(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; float).map(&#39;{:.0f}&#39;.format).astype(str)&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-490" y="925" width="330" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="hvA4PafVI6DXR14lHh_R-31" value="(1) merge&lt;br&gt;(2) change SAP# data type" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hvA4PafVI6DXR14lHh_R-31" value="(1) merge&lt;br&gt;(2) change 客編&amp;nbsp;data type" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-150" y="1070" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-32" target="hvA4PafVI6DXR14lHh_R-31">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-32" value="# import category table" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-810" y="1070" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-33" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div&gt;&lt;div&gt;path = r&#39;C:\Users\acadzzz\Desktop\CBG POS\3 Categorization Master Table\Categorization Master Table.xlsx&#39;&lt;/div&gt;&lt;div&gt;cate = pd.ExcelFile(path).parse()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;在mt的欄位共有N個&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;MATERIAL_NO&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;Prod_Name&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;....&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;Category&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;Sub_Cate...等等&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1180" y="1070" width="420" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-36" value="&lt;div&gt;&lt;div&gt;(1) Trans_cate = Trans_cate.merge(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; cate, how=&#39;left&#39;, left_on=&#39;SAP#&#39;, right_on=&#39;MATERIAL_NO&#39;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(2) Trans_cate[&#39;客編&#39;] = Trans_cate[&#39;客編&#39;].astype(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; float).map(&#39;{:.0f}&#39;.format).astype(str)&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="1075" width="330" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
