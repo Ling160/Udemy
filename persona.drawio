@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T06:39:49.246Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="CwLPy60qcn4Zzl--wjBe" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T06:40:40.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="GxFUg7Q9D_3NFJWgh59B" version="17.2.4" type="github">
   <diagram id="VdV0Nn6eujVthCHaxyLu" name="Page-1">
     <mxGraphModel dx="3516" dy="1641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -347,6 +347,9 @@
         <mxCell id="hvA4PafVI6DXR14lHh_R-122" value="&lt;div&gt;&lt;div&gt;df = df[[&lt;span style=&quot;background-color: rgb(255 , 204 , 230)&quot;&gt;&#39;Customer_ID&#39;, &#39;Birth&#39;, &#39;Gender&#39;, &#39;City&#39;&lt;/span&gt;, &#39;&lt;span style=&quot;background-color: rgb(153 , 255 , 204)&quot;&gt;HAS_CHILD&#39;, &#39;HAS_CAR&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(153 , 255 , 204)&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&#39;IS_PREGANAN&lt;/span&gt;&lt;span style=&quot;background-color: rgb(153 , 255 , 204)&quot;&gt;T&#39;, &#39;top_category&#39;&lt;/span&gt;, &lt;span style=&quot;background-color: rgb(255 , 204 , 230)&quot;&gt;&#39;Channel&#39;, &#39;Sub_Cate_bought_count&#39;, &#39;Frequency&#39;&lt;/span&gt;]]&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-1980" y="4767.5" width="500" height="45" as="geometry" />
         </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#FF3333;" edge="1" parent="1" source="hvA4PafVI6DXR14lHh_R-124" target="hvA4PafVI6DXR14lHh_R-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-124" value="rename" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1480" y="4890" width="240" height="100" as="geometry" />
         </mxCell>
@@ -355,6 +358,12 @@
         </mxCell>
         <mxCell id="hvA4PafVI6DXR14lHh_R-128" value="&lt;div&gt;df = df.rename(columns={&#39;HAS_CHILD&#39;: &#39;Kids&#39;, &#39;HAS_CAR&#39;: &#39;Car&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&#39;IS_PREGANANT&#39;: &#39;Pregnancy&#39;, &#39;top_category&#39;: &#39;Category&#39;})&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-1870" y="4905" width="390" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-129" value="change data type&lt;br&gt;Birth欄位" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1480" y="5145" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hvA4PafVI6DXR14lHh_R-131" value="&lt;div&gt;df[&#39;Birth&#39;] = df[&#39;Birth&#39;].astype(float).map(&#39;{:.0f}&#39;.format).astype(str)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1880" y="5172.5" width="390" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
